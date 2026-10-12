@@ -1,0 +1,1576 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Macbeth Act 3 analysis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..700&display=swap" rel="stylesheet">
+<style>@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600..900&display=swap");
+
+/* =========================================================
+   Macbeth Act 3: storm on the heath
+   Day  = dawn storm: pale slate sky, heather purple, lightning gold
+   Night = the heath at night: indigo sky, lightning gold on everything that matters
+   ========================================================= */
+:root{
+  --bg:#DCE2EA; --panel:#FCFBF8; --panel2:#F0F2F7; --ink:#10151D; --muted:#465164; --line:#B4BECB; --line2:#8794A8;
+  --accent:#4E2A84; --accent-ink:#FFFFFF; --hl:#EAE2F6;
+  --gold:#7A5300; --goldbg:#FCF0C9; --lightning:#F5C02E; --lightning-ink:#1B1400;
+  --blood:#A81D2A; --ok:#1E6B49; --teal:#0F6672; --amber:#A4520F;
+  --mark:rgba(245,192,46,.55); --mark2:rgba(245,192,46,.85); --markfaint:rgba(245,192,46,.20);
+  --rule:rgba(168,29,42,.30);
+  --sky1:#A9B7CE; --sky2:#E9E1F1; --mist:rgba(255,255,255,.65);
+  --glow:rgba(255,236,170,.55); --glow2:rgba(120,90,190,.18);
+  --ground:#17231F; --ground-ink:#EAF0EE;
+  --spell1:#2C1758; --spell2:#5A2F9A;
+  --onfill:#FFFFFF; --violet:#4E2A84; --glow-rev:rgba(255,214,120,.55);
+  --scale:1;
+  --castle:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='102' height='100' viewBox='0 0 102 100'%3E%3Cpath fill='%232E3752' d='M4 100V54h8v-7h6v7h6v-7h6v7h8V36h6v-9l7-11 7 11v9h6v18h8v-7h6v7h6v-7h6v7h8V100Z'/%3E%3Crect x='49' y='40' width='4' height='8' rx='1' fill='%23E9E1F1'/%3E%3Crect x='18' y='62' width='4' height='7' rx='1' fill='%23E9E1F1'/%3E%3Crect x='80' y='62' width='4' height='7' rx='1' fill='%23E9E1F1'/%3E%3C/svg%3E"); --hills:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='100' viewBox='0 0 1200 100' preserveAspectRatio='none'%3E%3Cpath fill='%238E99B4' d='M0 100V58C120 30 220 52 340 46S560 20 700 44 900 60 1040 40 1150 34 1200 44V100Z'/%3E%3Cpath fill='%233E4866' d='M0 100V80C140 62 260 90 420 80S700 62 860 78 1080 90 1200 74V100Z'/%3E%3C/svg%3E");
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0B0F20; --panel:#151C33; --panel2:#1B2440; --ink:#EEF1F8; --muted:#AAB5CC; --line:#2F3B5E; --line2:#4A5B86;
+    --accent:#F5C02E; --accent-ink:#1B1400; --hl:rgba(245,192,46,.16);
+    --gold:#F5C02E; --goldbg:#2A2410; --lightning:#F5C02E; --lightning-ink:#1B1400;
+    --blood:#FF7A85; --ok:#6FD6A6; --teal:#6DD3DE; --amber:#FFAE6B; --onfill:#0B0F20; --violet:#B79CFF;
+    --mark:rgba(245,192,46,.32); --mark2:rgba(245,192,46,.55); --markfaint:rgba(245,192,46,.12);
+    --rule:rgba(245,192,46,.22);
+    --sky1:#080C1E; --sky2:#2C2558; --mist:rgba(170,150,255,.16);
+    --glow:rgba(120,100,220,.30); --glow2:rgba(245,192,46,.08); --glow-rev:rgba(245,192,46,.18);
+    --ground:#05070F; --ground-ink:#EEF1F8;
+    --spell1:#231A4F; --spell2:#3D2C86;
+    --castle:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='102' height='100' viewBox='0 0 102 100'%3E%3Cpath fill='%2305070E' d='M4 100V54h8v-7h6v7h6v-7h6v7h8V36h6v-9l7-11 7 11v9h6v18h8v-7h6v7h6v-7h6v7h8V100Z'/%3E%3Crect x='49' y='40' width='4' height='8' rx='1' fill='%23F5C02E'/%3E%3Crect x='18' y='62' width='4' height='7' rx='1' fill='%23F5C02E'/%3E%3Crect x='80' y='62' width='4' height='7' rx='1' fill='%23F5C02E'/%3E%3C/svg%3E"); --hills:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='100' viewBox='0 0 1200 100' preserveAspectRatio='none'%3E%3Cpath fill='%23171C3D' d='M0 100V58C120 30 220 52 340 46S560 20 700 44 900 60 1040 40 1150 34 1200 44V100Z'/%3E%3Cpath fill='%2306080F' d='M0 100V80C140 62 260 90 420 80S700 62 860 78 1080 90 1200 74V100Z'/%3E%3C/svg%3E");
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+    --bg:#0B0F20; --panel:#151C33; --panel2:#1B2440; --ink:#EEF1F8; --muted:#AAB5CC; --line:#2F3B5E; --line2:#4A5B86;
+    --accent:#F5C02E; --accent-ink:#1B1400; --hl:rgba(245,192,46,.16);
+    --gold:#F5C02E; --goldbg:#2A2410; --lightning:#F5C02E; --lightning-ink:#1B1400;
+    --blood:#FF7A85; --ok:#6FD6A6; --teal:#6DD3DE; --amber:#FFAE6B; --onfill:#0B0F20; --violet:#B79CFF;
+    --mark:rgba(245,192,46,.32); --mark2:rgba(245,192,46,.55); --markfaint:rgba(245,192,46,.12);
+    --rule:rgba(245,192,46,.22);
+    --sky1:#080C1E; --sky2:#2C2558; --mist:rgba(170,150,255,.16);
+    --glow:rgba(120,100,220,.30); --glow2:rgba(245,192,46,.08); --glow-rev:rgba(245,192,46,.18);
+    --ground:#05070F; --ground-ink:#EEF1F8;
+    --spell1:#231A4F; --spell2:#3D2C86;
+    --castle:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='102' height='100' viewBox='0 0 102 100'%3E%3Cpath fill='%2305070E' d='M4 100V54h8v-7h6v7h6v-7h6v7h8V36h6v-9l7-11 7 11v9h6v18h8v-7h6v7h6v-7h6v7h8V100Z'/%3E%3Crect x='49' y='40' width='4' height='8' rx='1' fill='%23F5C02E'/%3E%3Crect x='18' y='62' width='4' height='7' rx='1' fill='%23F5C02E'/%3E%3Crect x='80' y='62' width='4' height='7' rx='1' fill='%23F5C02E'/%3E%3C/svg%3E"); --hills:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='100' viewBox='0 0 1200 100' preserveAspectRatio='none'%3E%3Cpath fill='%23171C3D' d='M0 100V58C120 30 220 52 340 46S560 20 700 44 900 60 1040 40 1150 34 1200 44V100Z'/%3E%3Cpath fill='%2306080F' d='M0 100V80C140 62 260 90 420 80S700 62 860 78 1080 90 1200 74V100Z'/%3E%3C/svg%3E");
+    color-scheme:dark;
+}
+
+/* ---------- base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px);font-size:calc(clamp(16px,1.05vw,24px) * var(--scale,1))}
+body{
+  height:100%;margin:0;color:var(--ink);
+  font-family:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-size:1rem;line-height:1.4;
+  background:
+    radial-gradient(70rem 30rem at 92% -6%, var(--glow), transparent 65%),
+    radial-gradient(60rem 28rem at 0% 108%, var(--glow2), transparent 60%),
+    var(--bg);
+}
+body:has(.revise){background:radial-gradient(70rem 30rem at 92% -6%,var(--glow-rev),transparent 65%),radial-gradient(60rem 28rem at 0% 108%,var(--glow2),transparent 60%),var(--bg)}
+::selection{background:var(--lightning);color:var(--lightning-ink)}
+button{font:inherit;color:inherit;cursor:pointer;transition:transform .09s ease,box-shadow .09s ease,background-color .15s ease,border-color .15s ease}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+h1,h2,h3{font-family:Literata,Georgia,"Times New Roman",serif}
+.pane{scrollbar-color:var(--line2) transparent;scrollbar-width:thin}
+#app{height:100%;display:flex;flex-direction:column}
+
+/* shared: icons drawn with masks so they take theme colours */
+.brand b::before,.head h2::before,.track::before,.word::before,.idea b::before,#timer::before{
+  content:"";display:inline-block;flex:none;
+  -webkit-mask:var(--ico,none) center/contain no-repeat;mask:var(--ico,none) center/contain no-repeat;
+}
+
+/* ---------- filter chips ---------- */
+.filters{display:flex;align-items:center;flex-wrap:wrap;gap:.45rem;padding:.7rem 1.3rem .1rem}
+.filters[hidden]{display:none}
+.fl{color:var(--muted);margin-right:.3rem}
+.chip{
+  --c:var(--ink);display:inline-flex;align-items:center;gap:.4rem;min-height:2.45rem;padding:.25rem .8rem;
+  background:var(--panel);border:2px solid var(--line);border-radius:999px;font-size:.95rem;box-shadow:0 3px 0 var(--line);
+}
+.chip .dot{width:.75rem;height:.75rem;border-radius:50%;background:var(--c);box-shadow:0 0 0 2px var(--panel),0 0 0 3px var(--c)}
+.chip:hover{transform:translateY(-1px);border-color:var(--c)}
+.chip:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line)}
+.chip.on{border-color:var(--c);background:var(--hl);background:color-mix(in srgb,var(--c) 20%,var(--panel));font-weight:700;box-shadow:0 3px 0 var(--c)}
+.tg-ambition{--c:var(--gold)} .tg-banquo{--c:var(--teal)} .tg-fate{--c:var(--violet)} .tg-language{--c:var(--muted)}
+.tg-appearance{--c:var(--blood)} .tg-context{--c:var(--ok)} .tg-ahead{--c:var(--amber)} .tg-key13{--c:var(--gold)}
+
+/* =========================================================
+   THE SCRIPT (verse, speakers, annotations)
+   ========================================================= */
+.sp{
+  margin-top:1.1rem;padding-left:3rem;font-weight:700;color:var(--accent);font-size:1.1rem;
+}
+.sp::before{content:"";display:inline-block;width:.6rem;height:.6rem;margin-right:.55rem;border-radius:50%;background:var(--lightning);box-shadow:0 0 0 2px var(--accent);vertical-align:.08em}
+.stg,.gapline{padding-left:3rem;font-style:italic;color:var(--muted);font-family:Literata,Georgia,serif;font-size:1.25rem;margin:.5rem 0}
+.gapline{margin:1rem 0;border-top:2px dotted var(--line2);border-bottom:2px dotted var(--line2);padding-top:.6rem;padding-bottom:.6rem}
+.ln{display:grid;grid-template-columns:3rem 1fr;align-items:baseline}
+.ln .num{color:var(--muted);font-size:.85rem;text-align:right;padding-right:1.1rem;user-select:none;font-variant-numeric:tabular-nums}
+.ln .tx{font-family:Literata,Georgia,"Times New Roman",serif;font-size:1.6rem;line-height:1.5;text-wrap:pretty}
+.sd{font-style:italic;color:var(--muted);font-size:.85em}
+.foot{margin-top:1.5rem;color:var(--muted);font-size:.85rem;padding-left:3rem}
+
+/* annotated phrases: highlighter pen + underline */
+.ann{
+  cursor:pointer;border-radius:4px;padding:.02em .14em;
+  background:linear-gradient(transparent 52%,var(--mark) 52%);
+  text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:3px;text-underline-offset:5px;
+  -webkit-box-decoration-break:clone;box-decoration-break:clone;transition:background-color .15s ease,box-shadow .15s ease;
+}
+.ann:hover{background:var(--mark2)}
+.ann.on{background:var(--mark2);box-shadow:0 0 0 3px var(--accent);text-decoration-color:transparent}
+.ann.dim{pointer-events:none;background:none;text-decoration-color:transparent}
+.ln.rng{cursor:pointer}
+.ln.rng .tx{
+  border-left:7px solid var(--lightning);padding-left:.75rem;margin-left:-.85rem;border-radius:0 8px 8px 0;
+  background:linear-gradient(90deg,var(--markfaint),transparent 80%);
+  box-shadow:inset 3px 0 0 var(--accent);transition:background-color .15s ease;
+}
+.ln.rng:hover .tx{background:linear-gradient(90deg,var(--mark),transparent 90%)}
+.ln.rng.on .tx{background:linear-gradient(90deg,var(--mark2),var(--markfaint) 92%);border-left-width:11px;margin-left:-1rem;padding-left:.8rem}
+.ln.rng.dim{pointer-events:none}
+.ln.rng.dim .tx{border-left-color:transparent;background:none;box-shadow:none}
+
+/* =========================================================
+   SIDE PANEL: notes, prompts, tiers
+   ========================================================= */
+.side h3{
+  font-family:"Grenze Gotisch",Literata,Georgia,serif;font-weight:800;font-size:2.05rem;line-height:1.15;margin:.2rem 0 .55rem;letter-spacing:.005em;
+}
+.side p{font-size:1.15rem;line-height:1.45;margin:.15rem 0 .45rem}
+.side .lead{font-size:1.3rem}
+.side .hint{color:var(--muted)}
+.lab{
+  display:inline-block;margin-top:.9rem;padding:.1rem .8rem;border-radius:999px;background:var(--hl);color:var(--accent);
+  font-weight:700;font-size:.95rem;
+}
+.q{
+  position:relative;margin:.2rem 0 1rem;padding:.7rem 1rem .7rem 3.2rem;border-radius:12px;
+  background:var(--panel);border:2px solid var(--line);
+  font-family:Literata,Georgia,serif;font-style:italic;font-size:1.2rem;line-height:1.5;
+}
+.q::before{
+  content:"\201C";position:absolute;left:.6rem;top:-.05rem;font-family:"Grenze Gotisch",Literata,Georgia,serif;font-style:normal;font-weight:800;
+  font-size:3.6rem;line-height:1;color:var(--lightning);text-shadow:0 2px 0 rgba(16,21,29,.35);
+}
+.ptop{display:flex;justify-content:space-between;align-items:center;color:var(--muted);margin-bottom:.5rem}
+.mini{min-height:2.4rem;padding:.15rem .85rem;background:var(--panel);border:2px solid var(--line2);border-radius:10px;box-shadow:0 3px 0 var(--line2)}
+.mini:hover{border-color:var(--accent)}
+.mini:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+
+/* "Ask the class" speech bubble */
+.ask{
+  position:relative;margin:1.4rem 0 .9rem;padding:.7rem 1.1rem;border-radius:16px;
+  background:var(--goldbg);border:3px solid var(--lightning);
+}
+.ask::after{
+  content:"";position:absolute;left:2rem;bottom:-.95rem;width:1.3rem;height:1.3rem;transform:rotate(45deg);
+  background:var(--goldbg);border-right:3px solid var(--lightning);border-bottom:3px solid var(--lightning);border-bottom-right-radius:5px;
+}
+.ask b{color:var(--gold);font-size:.95rem}
+.ask p{margin:.2rem 0 0;font-weight:700;font-size:1.25rem}
+
+.tierbtns{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.3rem}
+.ghost{
+  min-height:2.75rem;padding:.3rem 1.05rem;margin-top:.6rem;background:var(--panel);border:2px solid var(--accent);border-radius:12px;box-shadow:0 4px 0 var(--accent);color:var(--ink);
+}
+.ghost:hover{transform:translateY(-1px);background:var(--hl)}
+.ghost:active{transform:translateY(3px);box-shadow:0 1px 0 var(--accent)}
+.small{min-height:2.45rem;font-size:.95rem;margin-top:0}
+.tierbtns .ghost{margin-top:0}
+button[data-t="sup"]{border-color:var(--teal);box-shadow:0 4px 0 var(--teal)}
+button[data-t="sup"]:active{box-shadow:0 1px 0 var(--teal)}
+button[data-t="str"]{border-color:var(--gold);box-shadow:0 4px 0 var(--gold);background:var(--goldbg)}
+button[data-t="str"]:active{box-shadow:0 1px 0 var(--gold)}
+.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);box-shadow:0 4px 0 rgba(16,21,29,.45)}
+.primary:hover{background:var(--accent)}
+.row{display:flex;gap:.6rem;flex-wrap:wrap;margin:.5rem 0 .9rem}
+.tier{margin-top:.8rem;padding:.55rem .95rem;border-radius:12px;border:2px solid var(--teal);background:var(--panel);scroll-margin-bottom:5rem;animation:rise .25s ease-out both}
+.tier.str{border-color:var(--gold);background:var(--goldbg)}
+.tier[hidden]{display:none}
+.tier b{display:block;color:var(--muted);font-size:.9rem}
+.tagrow{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:1rem}
+.tagrow .chip{min-height:0;padding:.12rem .75rem;font-size:.85rem;cursor:default;border-color:var(--c);box-shadow:none}
+.tagrow .chip:hover{transform:none}
+.notenav{
+  position:sticky;bottom:0;display:flex;align-items:center;justify-content:space-between;gap:.6rem;margin-top:1rem;padding:.75rem 0 .25rem;
+  border-top:2px solid var(--line);background:var(--panel2);
+}
+.notenav button{min-height:2.75rem;padding:.3rem 1.05rem;background:var(--panel);border:2px solid var(--accent);border-radius:12px;box-shadow:0 4px 0 var(--accent)}
+.notenav button:hover{background:var(--hl);transform:translateY(-1px)}
+.notenav button:active{transform:translateY(3px);box-shadow:0 1px 0 var(--accent)}
+
+.think{border:3px solid var(--teal);border-radius:16px;padding:.7rem 1.1rem;margin:1rem 0;background:var(--panel)}
+.think b{color:var(--teal)}
+.think p{margin:.2rem 0 .4rem}
+
+/* =========================================================
+   AIMS SCREEN: learning intention, success criteria, word, path
+   ========================================================= */
+.li{margin:.8rem 0;padding:.3rem 0 .3rem 1.1rem;border-left:8px solid var(--lightning)}
+.li p{font-family:Literata,Georgia,serif;font-size:1.4rem;line-height:1.4;margin:.3rem 0 0}
+.sc{margin:.9rem 0}
+.sc ul{list-style:none;margin:.5rem 0 0;padding:0}
+.sc li{position:relative;padding-left:2.4rem;margin:.4rem 0;font-size:1.22rem;line-height:1.35}
+.sc li::before{content:"";position:absolute;left:0;top:.18em;width:1.35rem;height:1.35rem;border:3px solid var(--accent);border-radius:7px;background:var(--panel)}
+.stretchsc{
+  margin:.9rem 0 0;padding:.55rem 1rem;border-radius:12px;background:var(--goldbg);border:2px solid var(--lightning);border-left-width:8px;font-size:1.2rem;
+}
+.word{
+  --ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 1l2.6 8.4L23 12l-8.4 2.6L12 23l-2.6-8.4L1 12l8.4-2.6z'/%3E%3C/svg%3E");
+  position:relative;margin:.9rem 0;padding:.7rem 1.3rem .7rem 3.6rem;border-radius:16px;font-size:1.15rem;line-height:1.4;
+  background:linear-gradient(135deg,var(--spell1),var(--spell2));color:#FFFFFF;border:3px solid var(--lightning);
+  box-shadow:0 5px 0 rgba(16,21,29,.4);
+}
+.word::before{position:absolute;left:1rem;top:1rem;width:1.7rem;height:1.7rem;background:var(--lightning)}
+.word b{color:var(--lightning)}
+.path{list-style:none;display:flex;flex-wrap:wrap;gap:.6rem .2rem;padding:0;margin:.6rem 0 0;counter-reset:step}
+.path li{
+  counter-increment:step;display:inline-flex;align-items:center;gap:.5rem;padding:.35rem .9rem .35rem .4rem;border-radius:999px;
+  background:var(--panel);border:2px solid var(--line2);font-size:1rem;
+}
+.path li::before{
+  content:counter(step);display:inline-grid;place-items:center;flex:none;width:1.7rem;height:1.7rem;border-radius:50%;
+  background:var(--line2);color:var(--ink);font-weight:700;font-size:.85rem;
+}
+.path li:first-child{border-color:var(--accent);font-weight:700}
+.path li:first-child::before{background:var(--accent);color:var(--accent-ink)}
+.path li:last-child{border-color:var(--lightning);background:var(--goldbg)}
+.path li:last-child::before{background:var(--lightning);color:var(--lightning-ink)}
+.path li+li{margin-left:1.5rem;position:relative}
+.path li+li::after{content:"";position:absolute;left:-1.3rem;top:50%;width:1.1rem;height:3px;background:repeating-linear-gradient(90deg,var(--line2) 0 5px,transparent 5px 9px)}
+
+/* context: mystery cards */
+.fact.card{
+  position:relative;margin:.75rem 0;padding:.8rem 1.1rem .8rem 4.3rem;cursor:pointer;background:var(--panel2);border:2px solid var(--line2);border-radius:16px;box-shadow:0 4px 0 var(--line2);
+}
+.fact.card::before{
+  content:"?";position:absolute;left:1rem;top:.9rem;display:grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:50%;
+  background:var(--accent);color:var(--accent-ink);font-family:"Grenze Gotisch",Literata,Georgia,serif;font-weight:800;font-size:1.6rem;line-height:1;
+  box-shadow:0 3px 0 rgba(16,21,29,.4);
+}
+.fact.card:hover{transform:translateY(-2px);border-color:var(--accent)}
+.fact.card:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+.fact h3{margin:0 0 .2rem;font-size:1.25rem}
+.fact .prompt{font-weight:700;color:var(--accent);font-size:1.25rem;margin:.1rem 0 0}
+.fact p{margin:0}
+.fact .txt{display:none;margin-top:.55rem;font-size:1.25rem;line-height:1.5}
+.fact .tap{display:block;color:var(--muted);font-size:.9rem;margin-top:.3rem}
+.fact.open{border-color:var(--ok);box-shadow:0 4px 0 var(--ok)}
+.fact.open::before{content:"\2713";background:var(--ok);font-family:Atkinson Hyperlegible,system-ui,sans-serif;font-size:1.4rem}
+.fact.open .txt{display:block;animation:rise .25s ease-out both}
+.fact.open .tap{display:none}
+.idea{padding:.6rem 0;border-bottom:2px dotted var(--line2)}
+.idea:last-child{border-bottom:0}
+.idea b{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M14 1 4 14h6l-2 9 11-14h-6z'/%3E%3C/svg%3E");display:flex;align-items:center;gap:.5rem;font-family:Literata,Georgia,serif;font-size:1.3rem}
+.idea b::before{width:.6em;height:.85em;background:var(--lightning);filter:drop-shadow(0 1px 0 rgba(16,21,29,.45))}
+.idea p{margin:0}
+
+/* =========================================================
+   GAP-FILLS, WORD BANK, QUICK CHECK
+   ========================================================= */
+.cloze{font-family:Literata,Georgia,serif;font-size:1.7rem;line-height:2.3;margin:0;max-width:44em;text-wrap:pretty}
+.gap{
+  display:inline-block;min-width:6.5em;text-align:center;margin:0 .1em;padding:0 .4em;line-height:1.6;cursor:pointer;vertical-align:baseline;
+  background:var(--hl);border:2px dashed var(--accent);border-radius:10px;
+}
+.gap:hover{background:var(--mark)}
+.gap sup{
+  display:inline-grid;place-items:center;width:1.5em;height:1.5em;margin-right:.35em;border-radius:50%;vertical-align:.15em;
+  background:var(--accent);color:var(--accent-ink);font-family:"Atkinson Hyperlegible",sans-serif;font-size:.55em;font-weight:700;
+}
+.gap .ans{visibility:hidden;font-family:"Atkinson Hyperlegible",sans-serif;font-weight:700;font-size:.85em;color:var(--ok)}
+.gap.open{background:transparent;border-style:solid;border-color:var(--ok);animation:pop .25s ease-out both}
+.gap.open .ans{visibility:visible}
+@keyframes pop{from{transform:scale(.9)}60%{transform:scale(1.06)}to{transform:scale(1)}}
+.bank{display:flex;flex-wrap:wrap;gap:.55rem;margin:.5rem 0 1rem}
+.bank span{padding:.3rem .9rem;background:var(--panel);border:2px solid var(--line2);border-radius:10px;box-shadow:0 3px 0 var(--line2);font-size:1.15rem}
+.track{
+  --ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M14 1 4 14h6l-2 9 11-14h-6z'/%3E%3C/svg%3E");
+  position:relative;margin-top:1rem;padding:.8rem 1.1rem .8rem 3.4rem;border-radius:16px;background:var(--goldbg);border:3px solid var(--lightning);
+}
+.track::before{position:absolute;left:1rem;top:.9rem;width:1.3rem;height:1.8rem;background:var(--gold)}
+.track p{margin:0;font-size:1.15rem}
+.hinge{margin-top:1.3rem;padding-top:.6rem;border-top:2px dotted var(--line2)}
+.hq{font-weight:700}
+.opt{
+  display:block;width:100%;text-align:left;margin:.5rem 0;padding:.55rem .95rem;min-height:2.9rem;font-size:1.05rem;
+  background:var(--panel);border:2px solid var(--line2);border-radius:12px;box-shadow:0 4px 0 var(--line2);
+}
+.opt:hover:not(:disabled){transform:translateY(-1px);border-color:var(--accent)}
+.opt:active:not(:disabled){transform:translateY(3px);box-shadow:0 1px 0 var(--line2)}
+.opt.right{border-color:var(--ok);background:var(--hl);background:color-mix(in srgb,var(--ok) 18%,var(--panel));box-shadow:0 4px 0 var(--ok);font-weight:700}
+.opt.right::before{content:"\2713  "}
+.opt.wrong{border-color:var(--blood);text-decoration:line-through;box-shadow:0 4px 0 var(--blood)}
+.opt.wrong::before{content:"\2717  ";text-decoration:none;display:inline-block}
+.hres{margin-top:.6rem;font-size:1.1rem}
+
+/* exit ticket + self rating */
+.qa{position:relative;margin:.8rem 0;padding:.75rem 1.1rem;background:var(--panel2);border:2px solid var(--line2);border-radius:16px;box-shadow:0 4px 0 var(--line2);cursor:pointer}
+.qa:hover{transform:translateY(-2px);border-color:var(--accent)}
+.qa .lv{display:inline-block;margin-bottom:.35rem;padding:.02rem .75rem;border-radius:999px;background:var(--teal);color:var(--onfill);font-size:.8rem;font-weight:700}
+.qa.stretch .lv{background:var(--lightning);color:var(--lightning-ink)}
+.qa .qq{font-weight:700;font-size:1.2rem}
+.qa .aa{margin-top:.4rem;font-size:1.2rem;visibility:hidden;color:var(--ok);font-weight:700;height:0;overflow:hidden}
+.qa.open{border-color:var(--ok);box-shadow:0 4px 0 var(--ok)}
+.qa.open .aa{visibility:visible;height:auto;animation:rise .25s ease-out both}
+.rate{padding:.65rem 0;border-bottom:2px dotted var(--line2)}
+.rate:last-child{border-bottom:0}
+.rate p{margin:0 0 .45rem;font-size:1.05rem}
+.rbtns{display:flex;gap:.45rem;flex-wrap:wrap}
+.rb{min-height:2.5rem;padding:.15rem .9rem;background:var(--panel);border:2px solid var(--line2);border-radius:10px;box-shadow:0 3px 0 var(--line2)}
+.rb:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+.rb[data-rate$=":0"]{border-color:var(--blood);box-shadow:0 3px 0 var(--blood)}
+.rb[data-rate$=":1"]{border-color:var(--amber);box-shadow:0 3px 0 var(--amber)}
+.rb[data-rate$=":2"]{border-color:var(--ok);box-shadow:0 3px 0 var(--ok)}
+.rb.on{color:var(--onfill);font-weight:700;animation:pop .25s ease-out both}
+.rb.on::before{content:"\2713  "}
+.rb[data-rate$=":0"].on{background:var(--blood)}
+.rb[data-rate$=":1"].on{background:var(--amber)}
+.rb[data-rate$=":2"].on{background:var(--ok)}
+
+/* timer */
+#timer{
+  --ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M14 1 4 14h6l-2 9 11-14h-6z'/%3E%3C/svg%3E");
+  position:fixed;right:1.3rem;bottom:6.2rem;z-index:6;display:flex;align-items:center;gap:.8rem;padding:.5rem 1rem;border-radius:16px;
+  background:var(--ground);color:var(--lightning);border:3px solid var(--lightning);box-shadow:0 8px 0 rgba(0,0,0,.35),0 0 30px rgba(245,192,46,.35);
+  font-size:2.1rem;font-weight:700;font-variant-numeric:tabular-nums;
+}
+#timer::before{width:.6em;height:.85em;background:var(--lightning)}
+#timer[hidden]{display:none}
+#timer.done{background:var(--blood);color:var(--onfill);border-color:var(--onfill)}
+#timer.done::before{background:var(--onfill)}
+#timer button{font-size:1rem;min-height:2.4rem;padding:.15rem .8rem;border:2px solid currentColor;border-radius:10px;background:transparent;color:inherit}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important}
+}
+@media (forced-colors:active){
+  .ann{text-decoration-color:Highlight}
+  .gap,.chip,.opt,.btn,.pill{border-color:ButtonText}
+}
+
+:root{--rose:#B0306B;--sky:#1F5FBF}
+:root[data-theme="dark"]{--rose:#FF8CC0;--sky:#7DB2FF}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--rose:#FF8CC0;--sky:#7DB2FF}}
+.tg-lady{--c:var(--rose)} .tg-irony{--c:var(--sky)}
+.tg-guilt{--c:var(--violet)} .tg-peel{--c:var(--teal)}
+
+/* =========================================================
+   V2 LAYOUT: one clear focus, everything else on demand
+   ========================================================= */
+[hidden]{display:none !important}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+#panel>*{animation:rise .25s ease-out both}
+.pane.wide{grid-column:1 / -1;overflow:auto}
+
+.ic{display:inline-block;flex:none;width:1.1em;height:1.1em;background:currentColor;-webkit-mask:var(--i) center/contain no-repeat;mask:var(--i) center/contain no-repeat}
+.ic-focus{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5'/%3E%3C/svg%3E")}
+.ic-close{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M5 5l14 14M19 5L5 19'/%3E%3C/svg%3E")}
+.ic-wide{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 12h18M7 8l-4 4 4 4M17 8l4 4-4 4'/%3E%3C/svg%3E")}
+.ic-full{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='16' rx='2.5'/%3E%3Cpath d='M9 4v16'/%3E%3C/svg%3E")}
+.ic-back{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 5l-7 7 7 7'/%3E%3C/svg%3E")}
+.ic-next{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 5l7 7-7 7'/%3E%3C/svg%3E")}
+.car{display:inline-block;width:.6em;height:.6em;margin-left:.5rem;border-right:3px solid currentColor;border-bottom:3px solid currentColor;transform:translateY(-.15em) rotate(45deg)}
+
+/* ---------- top bar ---------- */
+.topbar{
+  position:relative;z-index:8;display:flex;align-items:center;gap:1rem;padding:.55rem 1.1rem .85rem;isolation:isolate;
+  background:linear-gradient(180deg,var(--sky1) 0%,var(--sky2) 100%);
+  max-height:12rem;transition:opacity .5s ease,max-height .6s ease,padding .6s ease;
+}
+.topbar::before{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.5;
+  background-image:var(--castle),var(--hills),radial-gradient(26rem 4rem at 30% 100%,var(--mist),transparent 72%);
+  background-repeat:no-repeat;background-size:auto 100%,100% 34%,220% 100%;background-position:80% calc(100% - 6px),left bottom,0 100%;
+}
+.topbar::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:6px;
+  background:
+    repeating-linear-gradient(90deg,transparent 0 9px,rgba(245,192,46,.9) 9px 10px,transparent 10px 34px),
+    repeating-linear-gradient(90deg,rgba(168,29,42,.95) 0 4px,transparent 4px 34px),
+    repeating-linear-gradient(90deg,rgba(7,16,30,.75) 0 14px,transparent 14px 28px),
+    #1D5B45;
+}
+.b-left{display:flex;align-items:center;gap:.8rem;flex:none}
+.b-mid{flex:1;display:flex;align-items:center;justify-content:center;gap:.6rem;min-width:0}
+.b-right{display:flex;gap:.5rem;flex:none}
+.brand{display:flex;align-items:center;gap:.5rem}
+.brand b{
+  --ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M14 1 4 14h6l-2 9 11-14h-6z'/%3E%3C/svg%3E");
+  display:inline-flex;align-items:center;gap:.3rem;font-family:"Grenze Gotisch",Literata,Georgia,serif;font-weight:850;font-size:1.9rem;line-height:1;
+  color:var(--ink);text-shadow:0 0 18px var(--glow);
+}
+.brand b::before{width:.6em;height:.9em;background:var(--lightning);filter:drop-shadow(0 1px 0 rgba(16,21,29,.5))}
+.brand span{background:var(--lightning);color:var(--lightning-ink);font-weight:700;font-size:.8rem;padding:.1rem .65rem;border-radius:999px;box-shadow:0 2px 0 rgba(16,21,29,.35);white-space:nowrap}
+.sbtn{
+  min-height:2.6rem;padding:.25rem .95rem;display:inline-flex;align-items:center;font-weight:700;
+  background:var(--panel);border:2px solid var(--line2);border-radius:12px;box-shadow:0 3px 0 var(--line2);
+}
+.sbtn:hover{transform:translateY(-1px)}
+.sbtn:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+.sbtn.lesson{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);box-shadow:0 3px 0 rgba(16,21,29,.45);min-width:8.2rem;justify-content:space-between}
+
+.popwrap{position:relative}
+.pop{
+  position:absolute;top:calc(100% + .55rem);z-index:20;min-width:13rem;padding:.5rem;display:flex;flex-direction:column;gap:.4rem;
+  background:var(--panel);border:2px solid var(--line2);border-radius:14px;box-shadow:0 16px 34px -10px rgba(8,10,25,.5);animation:rise .2s ease-out both;
+}
+#lmenu{left:0;min-width:23rem}
+#tmenu,#omenu{right:0}
+.pop button{min-height:2.6rem;padding:.2rem .9rem;text-align:left;background:var(--panel2);border:2px solid var(--line);border-radius:10px}
+.pop button:hover{border-color:var(--accent);background:var(--hl)}
+.lm{display:flex !important;flex-direction:column;align-items:flex-start}
+.lm b{font-size:1.05rem}.lm small{color:var(--muted);font-size:.85rem}
+.lm.on{background:var(--accent) !important;color:var(--accent-ink);border-color:var(--accent) !important}
+.lm.on small{color:var(--accent-ink);opacity:.85}
+.orow{display:flex;align-items:center;gap:.4rem}
+.orow span{flex:1;color:var(--muted);padding-right:.6rem}
+.orow button{text-align:center}
+
+.btn{
+  flex:none;white-space:nowrap;min-height:2.85rem;padding:.3rem 1.1rem;display:inline-flex;align-items:center;gap:.5rem;font-weight:700;
+  background:var(--panel);border:2px solid var(--line2);border-radius:12px;box-shadow:0 4px 0 var(--line2);
+}
+.btn:hover{transform:translateY(-1px)}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line2)}
+.btn.primary{background:var(--lightning);color:var(--lightning-ink);border-color:var(--lightning);box-shadow:0 4px 0 rgba(16,21,29,.5)}
+.btn:disabled{opacity:.4;cursor:default;box-shadow:none;transform:none}
+.btn.back{padding:.3rem .9rem}
+.steps{display:flex;align-items:center;list-style:none;margin:0;padding:0;min-width:0;flex:0 1 auto}
+.steps li{display:flex;align-items:center}
+.steps li+li::before{content:"";width:.7rem;height:3px;border-radius:2px;background:var(--line2);opacity:.7}
+.steps li.done+li::before,.steps li.done + li::before{background:var(--accent);opacity:1}
+.stp{
+  display:inline-flex;align-items:center;gap:.4rem;min-height:2.3rem;padding:.12rem;background:var(--panel);
+  border:2px solid var(--line2);border-radius:999px;box-shadow:0 3px 0 var(--line2);
+}
+.stp:hover{transform:translateY(-1px)}
+.stp .pn{display:inline-grid;place-items:center;width:1.7rem;height:1.7rem;border-radius:50%;font-size:.82rem;font-weight:700;color:#fff;background:var(--line2)}
+.stp .pl{display:none;font-weight:700;padding-right:.7rem;white-space:nowrap}
+.stp.aims .pn{background:#8A5F00}
+.stp.context .pn,.stp.practice .pn{background:var(--teal);color:var(--onfill)}
+.stp.extract .pn{background:var(--accent);color:var(--accent-ink)}
+.stp.link .pn{background:#5F6C80}
+.stp.plenary .pn,.stp.assess .pn{background:var(--blood);color:var(--onfill)}
+.stp.done{border-color:var(--accent);opacity:.85}
+.stp.on{background:var(--lightning);color:var(--lightning-ink);border-color:var(--lightning);box-shadow:0 3px 0 rgba(16,21,29,.5);opacity:1}
+.stp.on .pl{display:inline}
+.stp.on .pn{background:var(--lightning-ink);color:var(--lightning)}
+
+/* ---------- the stage ---------- */
+.canvas{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr);gap:1.1rem;padding:1rem 1.2rem 1.1rem;transition:padding .6s ease}
+.canvas.has-drawer{grid-template-columns:minmax(0,1.25fr) minmax(22rem,.85fr)}
+.canvas.has-drawer.wide{grid-template-columns:minmax(0,.8fr) minmax(0,1.3fr)}
+.canvas.has-drawer.mainhidden{grid-template-columns:3.4rem minmax(0,1fr)}
+.canvas.mainhidden #mainpane{display:none}
+.railtab{
+  order:-1;writing-mode:vertical-rl;padding:1rem .3rem;font-weight:700;letter-spacing:.02em;
+  background:var(--panel);border:2px solid var(--line2);border-radius:16px;box-shadow:0 4px 0 var(--line2);
+}
+.railtab:hover{background:var(--hl)}
+.pane{min-height:0}
+.pane.main{
+  display:flex;flex-direction:column;overflow:hidden;background:var(--panel);border:2px solid var(--line2);border-radius:16px;
+  box-shadow:0 5px 0 var(--line2),0 26px 40px -26px rgba(8,10,25,.5);animation:rise .35s ease-out both;
+}
+.phead{display:flex;align-items:flex-start;justify-content:space-between;gap:.6rem 1.2rem;flex-wrap:wrap;padding:.85rem 1.5rem .7rem;border-bottom:2px solid var(--line)}
+.pt{min-width:0}
+.pt .kick{display:inline-block;background:var(--hl);color:var(--accent);font-weight:700;font-size:.88rem;padding:.1rem .8rem;border-radius:999px}
+.pt h2{
+  --ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M14 1 4 14h6l-2 9 11-14h-6z'/%3E%3C/svg%3E");
+  display:flex;align-items:center;gap:.55rem;margin:.35rem 0 0;font-size:1.6rem;line-height:1.2;font-weight:800;
+}
+.pt h2::before{content:"";display:inline-block;flex:none;width:.6em;height:.85em;background:var(--lightning);filter:drop-shadow(0 1px 0 rgba(16,21,29,.45));-webkit-mask:var(--ico) center/contain no-repeat;mask:var(--ico) center/contain no-repeat}
+.pt .sub{margin:.1rem 0 0;color:var(--muted);font-size:1.05rem}
+.ptools{display:flex;flex-wrap:wrap;gap:.45rem;justify-content:flex-end;align-items:center}
+.tb{
+  display:inline-flex;align-items:center;gap:.45rem;min-height:2.6rem;padding:.2rem .95rem;font-weight:700;font-size:.98rem;
+  background:var(--panel2);border:2px solid var(--line2);border-radius:999px;box-shadow:0 3px 0 var(--line2);
+}
+.tb:hover{transform:translateY(-1px);border-color:var(--accent)}
+.tb:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+.tb.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);box-shadow:0 3px 0 rgba(16,21,29,.45)}
+.tb.cta:not(.on){background:var(--lightning);color:var(--lightning-ink);border-color:var(--lightning);box-shadow:0 3px 0 rgba(16,21,29,.45)}
+.pbody{flex:1;min-height:0;overflow:auto;padding:1.1rem 1.7rem 2.2rem;scrollbar-color:var(--line2) transparent;scrollbar-width:thin}
+.inner{max-width:62rem;margin:0 auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(22rem,1fr));gap:.4rem 1.2rem}
+.lines{position:relative;width:fit-content;min-width:min(100%,34rem);max-width:100%;margin:0 auto;background:linear-gradient(to right,transparent 2.55rem,var(--rule) 2.55rem,var(--rule) calc(2.55rem + 2px),transparent calc(2.55rem + 2px))}
+.foot{max-width:56rem;margin:1.6rem auto 0;padding:0;text-align:center}
+.aimsbody{max-width:58rem}
+.aimsbody{padding-top:1.2vh}
+.aimsbody .li p{font-size:2.1rem;line-height:1.35}
+.aimsbody .sc li{font-size:1.5rem;margin:.7rem 0 .7rem;padding-left:2.6rem}
+.aimsbody .sc li::before{top:.14em}
+.aimsbody .stretchsc{font-size:1.25rem}
+
+.pane.drawer{
+  display:flex;flex-direction:column;overflow:hidden;background:var(--panel2);border:2px solid var(--line);border-top:9px solid var(--accent);border-radius:16px;
+  box-shadow:0 5px 0 var(--line),0 26px 40px -26px rgba(8,10,25,.5);animation:rise .3s ease-out both;
+}
+.dhead{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.7rem 1rem .4rem 1.4rem}
+.dhead h3{margin:0;font-size:1.35rem}
+.dtools{display:flex;gap:.4rem}
+.ib{width:2.6rem;height:2.6rem;display:inline-grid;place-items:center;background:var(--panel);border:2px solid var(--line2);border-radius:10px;box-shadow:0 3px 0 var(--line2)}
+.ib:hover{border-color:var(--accent);background:var(--hl)}
+.ib:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+.dbody{flex:1;min-height:0;overflow:auto;padding:.3rem 1.4rem 1.2rem;scrollbar-color:var(--line2) transparent;scrollbar-width:thin}
+.dbody .q{margin-top:.2rem}
+.dbody .hinge{margin-top:0;padding-top:0;border-top:0}
+.dtools .tb{min-height:2.4rem;padding:.15rem .8rem;font-size:.92rem}
+.dtools .ib{width:2.4rem;height:2.4rem}
+.dtools{align-items:center}
+
+.canvas.has-drawer .phead{padding:.6rem 1.2rem .5rem;gap:.4rem .8rem}
+.canvas.has-drawer .pt h2{font-size:1.3rem;margin-top:.25rem}
+.canvas.has-drawer .pt .sub{display:none}
+.canvas.has-drawer .ptools .tb{min-height:2.3rem;padding:.12rem .8rem;font-size:.92rem}
+
+/* ---------- bottom bar: theme filters ---------- */
+.filters{
+  display:flex;align-items:center;flex-wrap:wrap;gap:.45rem;padding:.6rem 1.2rem .7rem;background:var(--panel2);border-top:2px solid var(--line);
+  max-height:12rem;transition:opacity .5s ease,max-height .6s ease,padding .6s ease;
+}
+.filters .chip{min-height:2.2rem;padding:.12rem .65rem;font-size:.9rem;box-shadow:0 2px 0 var(--line)}
+.filters .chip.on{box-shadow:0 2px 0 var(--c)}
+.filters .fl{margin-right:.2rem}
+
+#timer{bottom:1.2rem}
+body:has(#filters:not([hidden])) #timer{bottom:5.2rem}
+
+/* ---------- focus mode ---------- */
+#fctl{position:fixed;top:.9rem;left:1.2rem;z-index:30;display:flex;gap:.5rem;opacity:0;visibility:hidden;transition:opacity .4s ease,visibility 0s linear .4s}
+body.focus #fctl{opacity:.9;visibility:visible;transition:opacity .6s ease .45s,visibility 0s}
+body.focus #fctl:hover{opacity:1}
+#fctl button{min-height:2.6rem;padding:.2rem 1rem;display:inline-flex;align-items:center;gap:.4rem;font-weight:700;background:var(--panel);border:2px solid var(--line2);border-radius:999px;box-shadow:0 3px 0 var(--line2)}
+body.focus .topbar,body.focus .filters{opacity:0;max-height:0;padding-top:0;padding-bottom:0;overflow:hidden;pointer-events:none;border-width:0}
+body.focus .canvas{padding-top:4rem}
+body.focus .canvas.has-drawer,body.focus .canvas.has-drawer.wide,body.focus .canvas.has-drawer.mainhidden{grid-template-columns:minmax(0,1fr)}
+body.focus .pane.drawer,body.focus .railtab{display:none}
+body.focus .canvas.mainhidden #mainpane{display:flex}
+body.focus .ptools,body.focus .pt .sub,body.focus .foot{display:none}
+body.focus .phead{border-bottom-color:transparent}
+body.focus .ln .tx{font-size:1.9rem;line-height:1.55}
+body.focus .sp{font-size:1.25rem}
+body.focus .stg,body.focus .gapline{font-size:1.45rem}
+body.focus .ann{background:none;text-decoration:none;box-shadow:none;cursor:default;pointer-events:none}
+body.focus .ln.rng{cursor:default;pointer-events:none}
+body.focus .ln.rng .tx,body.focus .ln.rng.on .tx{border-left-color:transparent;background:none;box-shadow:none;margin-left:0;padding-left:0}
+
+/* ---------- responsive ---------- */
+@media (max-width:1500px){
+  .brand span{display:none}
+  .btn.back .tx{display:none}
+  .btn.back{padding:.3rem .75rem}
+  .topbar{gap:.7rem}
+}
+@media (max-width:1100px){
+  .topbar{flex-wrap:wrap;row-gap:.6rem}
+  .b-mid{order:3;flex:1 1 100%}
+  .b-right{margin-left:auto}
+  .btn .tx{display:none}
+  .btn.next .tx{display:inline}
+  .steps{flex:0 1 auto;overflow:hidden;padding:.1rem .15rem .3rem}
+  .stp{min-height:2rem;padding:.08rem}
+  .stp .pn{width:1.45rem;height:1.45rem;font-size:.75rem}
+  .stp .pl{font-size:.9rem;padding-right:.5rem}
+  .steps li+li::before{width:.35rem}
+}
+@media (max-width:900px){
+  .canvas{padding:.7rem}
+  .canvas.has-drawer,.canvas.has-drawer.wide{grid-template-columns:minmax(0,1fr)}
+  .pane.drawer{position:fixed;left:.6rem;right:.6rem;bottom:.6rem;height:64vh;z-index:15;box-shadow:0 -10px 40px rgba(8,10,25,.5),0 5px 0 var(--line)}
+  .canvas.has-drawer.mainhidden{grid-template-columns:minmax(0,1fr)}
+  .railtab{display:none !important}
+  .phead{padding:.7rem 1rem .5rem}
+  .pbody{padding:.9rem 1rem 1.6rem}
+  .cards{grid-template-columns:1fr}
+  #timer{bottom:1rem}
+  #lmenu{min-width:18rem}
+}
+@media (max-height:760px){
+  .topbar{padding-top:.4rem;padding-bottom:.7rem}
+  .pbody{padding-top:.7rem}
+  .pt h2{font-size:1.4rem}
+}
+@media (forced-colors:active){
+  .tb,.stp,.btn,.sbtn{border-color:ButtonText}
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <header class="topbar" id="topbar">
+    <div class="b-left">
+      <div class="brand"><b>Macbeth</b><span>Act 3 analysis</span></div>
+      <a class="sbtn" href="macbeth-act2-analysis.html">&larr; Act 2</a>
+      <div class="popwrap">
+        <button id="lbtn" class="sbtn lesson" aria-haspopup="true" aria-expanded="false"><span id="lbl">Lesson 1</span><i class="car" aria-hidden="true"></i></button>
+        <div id="lmenu" class="pop" hidden></div>
+      </div>
+    </div>
+    <nav id="nav" class="b-mid" aria-label="Lesson steps"></nav>
+    <div class="b-right">
+      <div class="popwrap">
+        <button id="tbtn" class="sbtn" aria-haspopup="true" aria-expanded="false">Timer</button>
+        <div id="tmenu" class="pop" hidden>
+          <button data-sec="30">30 seconds</button>
+          <button data-sec="60">1 minute</button>
+          <button data-sec="120">2 minutes</button>
+          <button data-sec="300">5 minutes</button>
+          <button data-sec="600">10 minutes</button>
+        </div>
+      </div>
+      <div class="popwrap">
+        <button id="obtn" class="sbtn" aria-haspopup="true" aria-expanded="false">Display</button>
+        <div id="omenu" class="pop" hidden>
+          <div class="orow"><span>Text size</span><button id="fsm" aria-label="Smaller text">A&minus;</button><button id="fsp" aria-label="Larger text">A+</button></div>
+          <div class="orow"><span>Theme</span><button id="theme">Night mode</button></div>
+          <div class="orow"><span>Screen</span><button id="full">Full screen</button></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="stage" class="canvas"></main>
+  <footer id="filters" class="filters" hidden></footer>
+</div>
+<div id="fctl" aria-hidden="true">
+  <button data-act="unfocus" id="unfocus"><i class="ic ic-back"></i> Back to analysis</button>
+  <button id="ffm" aria-label="Smaller text">A&minus;</button>
+  <button id="ffp" aria-label="Larger text">A+</button>
+</div>
+<div id="timer" hidden role="timer" aria-live="off"><span id="tt">0:00</span><button data-act="tstop">Stop</button></div>
+<noscript>This teaching tool needs JavaScript.</noscript>
+
+<script>
+const SP = (t) => ({ k: "sp", t });
+const L = (n, t) => ({ k: "ln", n, t });
+const ST = (t, key) => ({ k: "st", t, key });
+const GAP = (t) => ({ k: "gap", t });
+
+const DATA = {
+  TAGS: { ambition: "Ambition", language: "Language & technique", appearance: "Appearance vs reality", irony: "Irony", ahead: "Look ahead", guilt: "Guilt & fear", lady: "Lady Macbeth", peel: "★ PEEL evidence" },
+  hours: [
+
+
+  {
+    title: "Act 3, Lesson 1", subtitle: "Scene 3.1: the king’s welcome and the plot",
+    steps: [
+      { type: "aims", key: "a3h1-aims", short: "Aims", mins: 5, title: "Today’s lesson",
+        doNow: { title: "Do now: what do you remember?", qa: [
+          { q: "At the end of Act 2, why did Malcolm and Donalbain run away, and who gained from it?", a: "They feared for their lives (“There’s daggers in men’s smiles”). Running away made them look guilty, so Macbeth gained: nobody suspected him and he was named king." },
+          { q: "What phrase did Ross use for ambition that destroys itself?", a: "“Thriftless ambition”: wasteful ambition that devours its own means." },
+          { q: "What does “pathetic fallacy” mean? Give an example from Act 2.", a: "When the weather or nature seems to mirror the events of the story. For example, darkness at midday after Duncan’s murder." } ] } },
+      { type: "link", key: "a3l1", short: "Story 3.1", mins: 4, title: "Forres, after the crowning",
+        text: "Macbeth has been crowned and Act 3 opens at the palace in Forres. Banquo, alone on stage, says that Macbeth now has everything the witches promised: king, Cawdor and {{Glamis}}. He fears that Macbeth ‘played most foully’ to get it. But the witches also promised that Banquo would be the {{father}} of many kings, so he wonders whether their words might come true for him too. Macbeth and Lady Macbeth enter as {{king}} and queen, and Macbeth names Banquo as the chief {{guest}} at a feast that night.",
+        hinge: { q: "What does Banquo suspect when he is alone on stage?", opts: ["That Macbeth became king by foul means", "That Duncan died of natural causes", "That the witches were lying about everything", "That Lady Macbeth is ill"], correct: 0,
+          why: "Banquo says “I fear / Thou played’st most foully for ’t.” He suspects Macbeth, but he also hopes the witches’ promise to him will come true, so he does not speak out." } },
+      { type: "extract", key: "a3e16", short: "3.1 Welcome", mins: 15, read: true, label: "Extract 16", title: "Act 3, Scene 1: Banquo and the king", sub: "Banquo alone, then the welcome", scene: "3.1",
+        setup: "Banquo is alone for a moment, speaking his private thoughts. Then Macbeth enters as king. Listen to how friendly and ordinary Macbeth’s questions are. Ask yourself: what does he really want to find out?",
+        think: "With a partner (30 seconds): Macbeth only asks Banquo about his journey. What might he be trying to learn?", thinkSecs: 30,
+        task: "Underline every question Macbeth asks Banquo. Circle one line where Banquo says something that the audience hears differently from how Macbeth hears it.",
+        lines: [
+          SP("Banquo"),
+          L(1, "Thou hast it now—king, Cawdor, Glamis, all"), L(2, "As the Weïrd Women promised, and I fear"), L(3, "Thou played’st most foully for ’t. Yet it was said"), L(4, "It should not stand in thy posterity,"), L(5, "But that myself should be the root and father"), L(6, "Of many kings. If there come truth from them"), L(7, "(As upon thee, Macbeth, their speeches shine)"), L(8, "Why, by the verities on thee made good,"), L(9, "May they not be my oracles as well,"), L(10, "And set me up in hope? But hush, no more."),
+          ST("Sennet sounded. Enter Macbeth as King, Lady Macbeth, Lennox, Ross, Lords, and Attendants.", "s10"),
+          SP("Macbeth"), L(11, "Here’s our chief guest."),
+          SP("Lady Macbeth"), L(12, "If he had been forgotten,"), L(13, "It had been as a gap in our great feast"), L(14, "And all-thing unbecoming."),
+          SP("Macbeth"), L(15, "Tonight we hold a solemn supper, sir,"), L(16, "And I’ll request your presence."),
+          SP("Banquo"), L(17, "Let your Highness"), L(18, "Command upon me, to the which my duties"), L(19, "Are with a most indissoluble tie"), L(20, "Forever knit."),
+          SP("Macbeth"), L(21, "Ride you this afternoon?"),
+          SP("Banquo"), L(22, "Ay, my good lord."),
+          SP("Macbeth"), L(23, "We should have else desired your good advice"), L(24, "(Which still hath been both grave and prosperous)"), L(25, "In this day’s council, but we’ll take tomorrow."), L(26, "Is ’t far you ride?"),
+          SP("Banquo"), L(27, "As far, my lord, as will fill up the time"), L(28, "’Twixt this and supper. Go not my horse the better,"), L(29, "I must become a borrower of the night"), L(30, "For a dark hour or twain."),
+          SP("Macbeth"), L(31, "Fail not our feast."),
+          SP("Banquo"), L(32, "My lord, I will not."),
+          SP("Macbeth"), L(33, "We hear our bloody cousins are bestowed"), L(34, "In England and in Ireland, not confessing"), L(35, "Their cruel parricide, filling their hearers"), L(36, "With strange invention. But of that tomorrow,"), L(37, "When therewithal we shall have cause of state"), L(38, "Craving us jointly. Hie you to horse. Adieu,"), L(39, "Till you return at night. Goes Fleance with you?"),
+          SP("Banquo"), L(40, "Ay, my good lord. Our time does call upon ’s."),
+          SP("Macbeth"), L(41, "I wish your horses swift and sure of foot,"), L(42, "And so I do commend you to their backs."), L(43, "Farewell."),
+          ST("Banquo exits.", "s43"),
+          L(44, "Let every man be master of his time"), L(45, "Till seven at night. To make society"), L(46, "The sweeter welcome, we will keep ourself"), L(47, "Till suppertime alone. While then, God be with you."),
+          ST("Lords and all but Macbeth and a Servant exit.", "s47")
+        ],
+        gloss: [["Weïrd Women", "the three witches (the “Weïrd Sisters”)"], ["posterity", "descendants, children and grandchildren"], ["oracles", "sources of true prophecy"], ["indissoluble", "impossible to break"], ["parricide", "the murder of a father (here, the murder of King Duncan)"], ["bestowed", "settled, living"], ["twain", "two"]] },
+      { type: "link", key: "a3l2", short: "Story 3.1b", mins: 4, title: "Alone with his fear",
+        text: "Macbeth sends a servant to bring in two men who are waiting at the palace gate. While he waits, he tells himself that being king is nothing unless he is {{safe}}. The only man he fears is {{Banquo}}. The witches gave Macbeth a ‘fruitless crown’ with no son to inherit it, and Macbeth admits that he murdered {{Duncan}} so that Banquo’s sons could be {{kings}}. Rather than accept that, he calls on {{fate}} to fight him to the death.",
+        hinge: { q: "Why does Macbeth fear Banquo’s sons so much?", opts: ["The witches promised Banquo’s children the crown, so Macbeth’s own line will not follow him", "They are stronger soldiers than Macbeth", "They know Macbeth killed Duncan", "They are in love with Lady Macbeth"], correct: 0,
+          why: "Macbeth says the witches gave him a “fruitless crown” and a “barren scepter,” with “no son of mine succeeding”. He has given up his soul to make “the seeds of Banquo kings”." } },
+      { type: "extract", key: "a3e17", short: "3.1 Soliloquy", mins: 15, read: true, label: "Extract 17", title: "Act 3, Scene 1: Macbeth alone, then the murderers", sub: "“To be thus is nothing”", scene: "3.1",
+        setup: "Macbeth sends away his servant and is alone. Then the murderers arrive. Watch what Macbeth says in private, then compare it with what he says to the men he needs.",
+        think: "With a partner (30 seconds): Macbeth has the crown. Why does he say it is “nothing”?", thinkSecs: 30,
+        task: "Underline two lines where Macbeth says he is afraid or unsafe. Circle the reason Macbeth gives for not killing Banquo openly.",
+        lines: [
+          SP("Macbeth"),
+          L(48, "Sirrah, a word with you. Attend those men"), L(49, "Our pleasure?"),
+          SP("Servant"), L(50, "They are, my lord, without the palace gate."),
+          SP("Macbeth"), L(51, "Bring them before us."),
+          ST("Servant exits.", "s51"),
+          L(52, "To be thus is nothing,"), L(53, "But to be safely thus. Our fears in Banquo"), L(54, "Stick deep, and in his royalty of nature"), L(55, "Reigns that which would be feared. ’Tis much he"), L(56, "dares,"), L(57, "And to that dauntless temper of his mind"), L(58, "He hath a wisdom that doth guide his valor"), L(59, "To act in safety. There is none but he"), L(60, "Whose being I do fear; and under him"), L(61, "My genius is rebuked, as it is said"), L(62, "Mark Antony’s was by Caesar. He chid the sisters"), L(63, "When first they put the name of king upon me"), L(64, "And bade them speak to him. Then, prophet-like,"), L(65, "They hailed him father to a line of kings."), L(66, "Upon my head they placed a fruitless crown"), L(67, "And put a barren scepter in my grip,"), L(68, "Thence to be wrenched with an unlineal hand,"), L(69, "No son of mine succeeding. If ’t be so,"), L(70, "For Banquo’s issue have I filed my mind;"), L(71, "For them the gracious Duncan have I murdered,"), L(72, "Put rancors in the vessel of my peace"), L(73, "Only for them, and mine eternal jewel"), L(74, "Given to the common enemy of man"), L(75, "To make them kings, the seeds of Banquo kings."), L(76, "Rather than so, come fate into the list,"), L(77, "And champion me to th’ utterance.—Who’s there?"),
+          ST("Enter Servant and two Murderers.", "s77"),
+          SP("Macbeth, to the Servant"), L(78, "Now go to the door, and stay there"), L(79, "till we call."),
+          ST("Servant exits.", "s79"),
+          GAP("[…Macbeth reminds the two men that Banquo ruined their lives, and shames them until they agree they are men. They explain that they are desperate and reckless…]"),
+          SP("Macbeth"), L(129, "Both of you"), L(130, "Know Banquo was your enemy."),
+          SP("Murderers"), L(131, "True, my lord."),
+          SP("Macbeth"), L(132, "So is he mine, and in such bloody distance"), L(133, "That every minute of his being thrusts"), L(134, "Against my near’st of life. And though I could"), L(135, "With barefaced power sweep him from my sight"), L(136, "And bid my will avouch it, yet I must not,"), L(137, "For certain friends that are both his and mine,"), L(138, "Whose loves I may not drop, but wail his fall"), L(139, "Who I myself struck down. And thence it is"), L(140, "That I to your assistance do make love,"), L(141, "Masking the business from the common eye"), L(142, "For sundry weighty reasons."),
+          GAP("[…The murderers promise to do whatever he commands…]"),
+          SP("Macbeth"), L(150, "The moment on ’t, for ’t must be done tonight"), L(151, "And something from the palace; always thought"), L(152, "That I require a clearness. And with him"), L(153, "(To leave no rubs nor botches in the work)"), L(154, "Fleance, his son, that keeps him company,"), L(155, "Whose absence is no less material to me"), L(156, "Than is his father’s, must embrace the fate"), L(157, "Of that dark hour. Resolve yourselves apart."),
+          GAP("[…the murderers say they are resolved…]"),
+          L(160, "I’ll call upon you straight. Abide within."),
+          ST("Murderers exit.", "s160"),
+          L(161, "It is concluded. Banquo, thy soul’s flight,"), L(162, "If it find heaven, must find it out tonight."),
+          ST("He exits.", "s162")
+        ],
+        gloss: [["Sirrah", "a word used to address a servant or inferior"], ["genius", "guardian spirit, the part of him that guides his fortunes"], ["rebuked", "held back, overpowered"], ["issue", "children, descendants"], ["filed", "defiled, made foul"], ["unlineal", "not of his own family line"], ["list", "the arena for a fight"], ["avouch", "openly justify"], ["clearness", "freedom from suspicion"], ["rubs and botches", "obstacles and mistakes"]] },
+      { type: "plenary", key: "a3h1-end", short: "Exit", mins: 8, title: "Exit ticket",
+        ticket: [
+          { q: "Find one question that Macbeth asks Banquo about his journey.", a: "For example “Ride you this afternoon?”, “Is ’t far you ride?” or “Goes Fleance with you?”" },
+          { q: "Explain what dramatic irony means. Use Banquo’s words “My lord, I will not” as your example.", a: "Dramatic irony is when the audience knows something that a character on stage does not. When Macbeth says “Fail not our feast” and Banquo answers “My lord, I will not,” Banquo thinks he is promising to be a guest. The audience knows Macbeth has reason to want him out of the way, and that Banquo may not make it to the feast." },
+          { q: "Find one quotation that shows Macbeth fears Banquo.", a: "For example “Our fears in Banquo / Stick deep”, “There is none but he / Whose being I do fear”." },
+          { q: "Manipulation means controlling someone cleverly, often by appealing to their feelings. Give one example of Macbeth manipulating the murderers.", a: "Macbeth reminds the murderers that Banquo was their enemy and appeals to their anger, so that they will do his killing for him. He also keeps his own hands clean by “masking the business from the common eye.”" },
+          { q: "Appearance vs reality: how does Macbeth look to Banquo in this scene, and what is he really thinking when he is alone?", a: "To Banquo he looks like a friendly king and gracious host: he praises Banquo’s advice, wishes his horses well and invites him to the feast. Alone, he says “To be thus is nothing, / But to be safely thus” and arranges Banquo’s murder. His politeness is a mask." },
+          { q: "Ambition tracker: compare Macbeth’s reason for killing Duncan with his reason for killing Banquo.", a: "He killed Duncan to gain the crown. He wants Banquo (and Fleance) dead to protect the crown, and because of the witches’ promise that Banquo’s sons will be kings. In both cases ambition drives him, but now fear drives it too." } ],
+        next: "Next lesson: we hear from Lady Macbeth alone, then we watch the attack on Banquo and the start of the feast." }
+    ],
+    aims: {
+      li: "To explore how Macbeth hides his real purpose behind friendly manners and how his ambition has turned into fear of Banquo’s sons, and to understand what dramatic irony is.",
+      sc: ["I can explain what dramatic irony means.", "I can find a question where Macbeth sounds polite but may have a darker purpose.", "I can find a quotation that shows Macbeth fears Banquo.", "I can explain why Macbeth does not kill Banquo openly."],
+      stretch: "I can compare Macbeth’s reasons for killing Duncan with his reasons for killing Banquo.",
+      word: { w: "dramatic irony", m: "when the audience knows something that a character on stage does not.", eg: "We know that Macbeth killed Duncan; Banquo only suspects it. Use the term in one sentence today." },
+      bridge: "At the end of Act 2, Macbeth went to Scone to be crowned. Act 3 opens with Macbeth as king, but with Banquo’s suspicions still hanging over him."
+    }
+  },
+
+  {
+    title: "Act 3, Lesson 2", subtitle: "Scenes 3.2–3.4: the couple apart, the murder, the feast",
+    steps: [
+      { type: "aims", key: "a3h2-aims", short: "Aims", mins: 5, title: "Today’s lesson",
+        doNow: { title: "Do now: what do you remember?", qa: [
+          { q: "Why does Macbeth say that being king is “nothing” unless he is “safely thus”?", a: "He fears Banquo. The witches promised that Banquo’s sons would be kings, so Macbeth thinks his crown is “fruitless” and unsafe." },
+          { q: "What did Macbeth tell the murderers about Fleance?", a: "That Fleance must die too, because “Whose absence is no less material to me / Than is his father’s.”" },
+          { q: "What is dramatic irony?", a: "When the audience knows something that a character on stage does not." } ] } },
+      { type: "link", key: "a3l3", short: "Story 3.2", mins: 4, title: "The queen is uneasy",
+        text: "Lady Macbeth asks a servant whether Banquo has {{left}} the court, and asks him to tell the king she would like a few words. Alone, she admits that getting what they wanted has not brought {{content}}: it is safer to be the person you have {{destroyed}} than to live in doubtful joy. When Macbeth arrives he says his mind is full of {{scorpions}} because Banquo and Fleance are still alive. He will not tell her his plan: she must be {{innocent}} of the knowledge until the deed is done.",
+        hinge: { q: "What does Lady Macbeth mean by “’Tis safer to be that which we destroy”?", opts: ["She wishes she could be as safe as Duncan, who is beyond harm", "She wants to destroy someone else", "She thinks Macbeth should destroy the evidence", "She is afraid of dying"], correct: 0,
+          why: "“That which we destroy” is Duncan, the person she and Macbeth killed. She says it is safer to be dead than to live in “doubtful joy” (happiness she cannot trust) after what they have done." } },
+      { type: "link", key: "a3l4", short: "Story 3.3", mins: 3, title: "Night on the road",
+        text: "Banquo and his son Fleance ride back towards the palace in the dark. Macbeth only hired two murderers, but {{three}} are waiting, and the third says that Macbeth sent him as well. They attack and strike out the {{light}}. Banquo is {{killed}}, but he cries out to Fleance to run, and Fleance {{escapes}}. The murderers know they have ‘lost best half of our affair’.",
+        hinge: { q: "What goes wrong for the murderers?", opts: ["Fleance escapes", "Banquo escapes", "They forget Macbeth’s orders", "The lords arrive and see them"], correct: 0,
+          why: "“There’s but one down. The son is fled.” Macbeth wanted both Banquo and Fleance dead, because the witches promised Banquo’s sons the throne. Half the plan has failed." } },
+      { type: "extract", key: "a3e18", short: "3.3 Murder", mins: 10, read: true, label: "Extract 18", title: "Act 3, Scene 3: Banquo’s murder", sub: "Three murderers in the dark", scene: "3.3",
+        setup: "This is the whole of Scene 3.3, and it is short. Banquo and Fleance ride back towards the palace in the dark. Notice who is waiting, and notice what happens to the light.",
+        think: "With a partner (30 seconds): Macbeth only hired two murderers. Why might a third one have turned up?", thinkSecs: 30,
+        task: "Underline Banquo’s last words to Fleance. Circle the line that tells you the murderers have only half succeeded.",
+        lines: [
+          SP("First Murderer"), L(1, "But who did bid thee join with us?"),
+          SP("Third Murderer"), L(2, "Macbeth."),
+          SP("Second Murderer, to the First Murderer"), L(3, "He needs not our mistrust, since he delivers"), L(4, "Our offices and what we have to do"), L(5, "To the direction just."),
+          SP("First Murderer"), L(6, "Then stand with us.—"), L(7, "The west yet glimmers with some streaks of day."), L(8, "Now spurs the lated traveler apace"), L(9, "To gain the timely inn, and near approaches"), L(10, "The subject of our watch."),
+          SP("Third Murderer"), L(11, "Hark, I hear horses."),
+          SP("Banquo, within"), L(12, "Give us a light there, ho!"),
+          SP("Second Murderer"), L(13, "Then ’tis he. The rest"), L(14, "That are within the note of expectation"), L(15, "Already are i’ th’ court."),
+          SP("First Murderer"), L(16, "His horses go about."),
+          SP("Third Murderer"), L(17, "Almost a mile; but he does usually"), L(18, "(So all men do) from hence to th’ palace gate"), L(19, "Make it their walk."),
+          ST("Enter Banquo and Fleance, with a torch.", "s19"),
+          SP("Second Murderer"), L(20, "A light, a light!"),
+          SP("Third Murderer"), L(21, "’Tis he."),
+          SP("First Murderer"), L(22, "Stand to ’t."),
+          SP("Banquo, to Fleance"), L(23, "It will be rain tonight."),
+          SP("First Murderer"), L(24, "Let it come down!"),
+          ST("The three Murderers attack.", "s24"),
+          SP("Banquo"), L(25, "O treachery! Fly, good Fleance, fly, fly, fly!"), L(26, "Thou mayst revenge—O slave!"),
+          ST("He dies. Fleance exits.", "s26"),
+          SP("Third Murderer"), L(27, "Who did strike out the light?"),
+          SP("First Murderer"), L(28, "Was ’t not the way?"),
+          SP("Third Murderer"), L(29, "There’s but one down. The son is"), L(30, "fled."),
+          SP("Second Murderer"), L(31, "We have lost best half of our"), L(32, "affair."),
+          SP("First Murderer"), L(33, "Well, let’s away and say how much is done."),
+          ST("They exit.", "s33")
+        ],
+        gloss: [["offices", "duties, jobs"], ["to the direction just", "exactly as he instructed"], ["lated", "late, overtaken by night"], ["the note of expectation", "the list of expected guests"], ["Stand to ’t", "get ready"], ["affair", "business, task"]] },
+      { type: "link", key: "a3l5", short: "Story 3.4", mins: 4, title: "The feast",
+        text: "At the palace in Scene 3.4, the lords sit down by {{rank}} and Macbeth says he will play the humble {{host}}. A {{murderer}} with blood on his face appears at the door. Macbeth is told that Banquo is dead, but {{Fleance}} has escaped, and his fear returns. Lady Macbeth reminds him that a feast needs a warm {{welcome}}.",
+        hinge: { q: "What bad news does the murderer bring?", opts: ["Banquo is dead, but Fleance has escaped", "Banquo is alive and has gone to England", "Both Banquo and Fleance are dead", "The lords have found out the plot"], correct: 0,
+          why: "“His throat is cut,” says the murderer, but “Fleance is ’scaped.” Macbeth says “Then comes my fit again”: his fear of the witches’ promise returns." } },
+      { type: "extract", key: "a3e19", short: "3.4 Feast", mins: 15, read: true, label: "Extract 19", title: "Act 3, Scene 4: the host and the murderer", sub: "The feast begins", scene: "3.4",
+        setup: "Macbeth welcomes the lords while a murderer waits at the door. Watch how his public voice and his private voice differ. The lines in the middle are spoken to the murderer, quietly, away from the table.",
+        think: "With a partner (30 seconds): find two lines where Macbeth sounds like a friendly host, and two where he sounds like a murderer.", thinkSecs: 30,
+        task: "Underline one phrase where Macbeth sounds like a good host. Circle the line where his fear comes back when he hears about Fleance.",
+        lines: [
+          SP("Macbeth"),
+          L(1, "You know your own degrees; sit down. At first"), L(2, "And last, the hearty welcome."),
+          L(4, "Ourself will mingle with society"), L(5, "And play the humble host."), L(6, "Our hostess keeps her state, but in best time"), L(7, "We will require her welcome."),
+          SP("Lady Macbeth"), L(8, "Pronounce it for me, sir, to all our friends,"), L(9, "For my heart speaks they are welcome."),
+          ST("Enter First Murderer to the door.", "s9"),
+          SP("Macbeth"), L(10, "See, they encounter thee with their hearts’ thanks."), L(11, "Both sides are even. Here I’ll sit i’ th’ midst."), L(12, "Be large in mirth. Anon we’ll drink a measure"), L(13, "The table round. [He approaches the Murderer.] There’s"), L(14, "blood upon thy face."),
+          SP("Murderer"), L(15, "’Tis Banquo’s then."),
+          SP("Macbeth"), L(16, "’Tis better thee without than he within."), L(17, "Is he dispatched?"),
+          SP("Murderer"), L(18, "My lord, his throat is cut. That I did for him."),
+          SP("Macbeth"), L(19, "Thou art the best o’ th’ cutthroats,"), L(20, "Yet he’s good that did the like for Fleance."), L(21, "If thou didst it, thou art the nonpareil."),
+          SP("Murderer"), L(22, "Most royal sir, Fleance is ’scaped."),
+          SP("Macbeth, aside"), L(23, "Then comes my fit again. I had else been perfect,"), L(24, "Whole as the marble, founded as the rock,"), L(25, "As broad and general as the casing air."), L(26, "But now I am cabined, cribbed, confined, bound in"), L(27, "To saucy doubts and fears.—But Banquo’s safe?"),
+          SP("Murderer"), L(28, "Ay, my good lord. Safe in a ditch he bides,"), L(29, "With twenty trenchèd gashes on his head,"), L(30, "The least a death to nature."),
+          SP("Macbeth"), L(31, "Thanks for that."), L(32, "There the grown serpent lies. The worm that’s fled"), L(33, "Hath nature that in time will venom breed,"), L(34, "No teeth for th’ present. Get thee gone. Tomorrow"), L(35, "We’ll hear ourselves again."),
+          ST("Murderer exits.", "s35"),
+          SP("Lady Macbeth"), L(36, "My royal lord,"), L(37, "You do not give the cheer. The feast is sold"), L(38, "That is not often vouched, while ’tis a-making,"), L(39, "’Tis given with welcome. To feed were best at home;"), L(40, "From thence, the sauce to meat is ceremony;"), L(41, "Meeting were bare without it."),
+          ST("Enter the Ghost of Banquo, and sits in Macbeth’s place.", "s41"),
+          SP("Macbeth, to Lady Macbeth"), L(42, "Sweet remembrancer!—"), L(43, "Now, good digestion wait on appetite"), L(44, "And health on both!"),
+          GAP("[…Macbeth says he wishes Banquo were here. Ross invites him to sit; Macbeth says the table is full…]"),
+          SP("Lennox"), L(55, "Here is a place reserved, sir."),
+          SP("Macbeth"), L(56, "Where?"),
+          SP("Lennox"), L(57, "Here, my good lord. What is ’t that moves your"), L(58, "Highness?")
+        ],
+        gloss: [["degrees", "ranks, positions in order of importance"], ["society", "company, the guests"], ["keeps her state", "stays in her chair of honour"], ["dispatched", "killed"], ["nonpareil", "someone without an equal"], ["cabined, cribbed, confined", "shut up in a small space"], ["saucy", "insolent, impudent (here, cheeky doubts)"], ["trenchèd", "cut deep, like a trench"], ["worm", "a small serpent (here, Fleance)"], ["remembrancer", "someone who reminds you"]] },
+      { type: "plenary", key: "a3h2-end", short: "Exit", mins: 8, title: "Exit ticket",
+        ticket: [
+          { q: "Find a quotation from Scene 3.3 that shows Banquo realises he is being attacked.", a: "“O treachery! Fly, good Fleance, fly, fly, fly!”" },
+          { q: "Explain what juxtaposition means, and give one example from Scenes 3.3 and 3.4.", a: "Juxtaposition is placing two very different things side by side so that the contrast stands out. For example, Banquo is murdered in the dark in 3.3, and in 3.4 Macbeth tells his guests to “Be large in mirth” while a murderer with blood on his face stands at the door." },
+          { q: "How does Macbeth’s mood change when he learns that Fleance has escaped? Use a quotation.", a: "He had felt “perfect, / Whole as the marble, founded as the rock”, but now he is “cabined, cribbed, confined”. His fear returns at once: “Then comes my fit again.”" },
+          { q: "Appearance vs reality: how does Lady Macbeth help Macbeth keep up appearances at the feast?", a: "She reminds him that a feast must feel warm: “You do not give the cheer.” She makes sure the host looks welcoming while he talks to a murderer, so that nobody suspects anything." },
+          { q: "Ambition tracker: compare how Macbeth gets rid of Banquo with how he got rid of Duncan.", a: "He killed Duncan himself, shaking and afraid. He has Banquo killed by hired men and keeps his own hands clean. He is more confident and more ruthless, but the plan still fails because Fleance escapes, so ambition has not brought him safety." } ],
+        next: "Next lesson: the ghost at the feast, the witches’ queen, and a lord who says the opposite of what he means." }
+    ],
+    aims: {
+      li: "To explore how Macbeth’s plan to remove Banquo unfolds, and to understand what juxtaposition is.",
+      sc: ["I can explain what juxtaposition means.", "I can describe what happens to Banquo and Fleance in Scene 3.3.", "I can explain how Macbeth’s mood changes when he hears that Fleance has escaped."],
+      stretch: "I can explain how Lady Macbeth helps Macbeth keep up appearances at the feast.",
+      word: { w: "juxtaposition", m: "placing two very different things side by side so that the contrast stands out.", eg: "Banquo is murdered in the dark in 3.3; in 3.4 Macbeth plays the “humble host” while a murderer with blood on his face stands at the door. Use the word in one sentence today." },
+      bridge: "Last lesson, Macbeth hired two murderers and told them that Fleance must die too. Today we see Lady Macbeth alone, the attack in the dark, and the start of the feast. (We will come back to Scene 3.2 for close reading in Lesson 4.)"
+    }
+  },
+
+  {
+    title: "Act 3, Lesson 3", subtitle: "Scenes 3.4–3.6: the ghost, the witches, the lords",
+    steps: [
+      { type: "aims", key: "a3h3-aims", short: "Aims", mins: 5, title: "Today’s lesson",
+        doNow: { title: "Do now: what do you remember?", qa: [
+          { q: "What happened to Banquo and to Fleance in Scene 3.3?", a: "Banquo was killed. Fleance escaped." },
+          { q: "What did Macbeth say when the murderer told him Fleance was free?", a: "“Then comes my fit again”: his fear came back at once." },
+          { q: "What does juxtaposition mean?", a: "Placing two very different things side by side so that the contrast stands out." } ] } },
+      { type: "link", key: "a3l6", short: "Story 3.4b", mins: 4, title: "The ghost at the table",
+        text: "Banquo’s {{ghost}} sits in Macbeth’s place, and only Macbeth can see it. Lady Macbeth tells the lords that her husband is often like this, and tells him that the ghost is only a ‘painting’ of his {{fear}}. When the ghost returns, Macbeth toasts the man he has killed. In the end Lady Macbeth sends the lords away in {{disorder}}. Alone with her, Macbeth says that he is in {{blood}} so far that going back would be as hard as going on, and he decides to visit the {{witches}} tomorrow. We will study this scene closely in Lesson 4.",
+        hinge: { q: "What does Lady Macbeth say the ghost really is?", opts: ["A painting of his own fear", "A trick played by the lords", "A real ghost she can also see", "A vision sent by the witches"], correct: 0,
+          why: "She says “This is the very painting of your fear,” and “You look but on a stool.” She sees nothing, and treats the ghost as an appearance created by Macbeth’s own mind." } },
+      { type: "link", key: "a3l7", short: "Story 3.5", mins: 3, title: "Thunder on the heath",
+        text: "The witches meet {{Hecate}}, the queen of witchcraft. She is {{angry}} that they dealt with Macbeth without her. She says Macbeth does not love them: he is a ‘wayward son’ who ‘loves for his own ends’. She plans to show him {{illusions}} that will make him believe he is invincible, because ‘security / Is mortals’ chiefest enemy’. Many scholars think this scene was added to the play after Shakespeare wrote it.",
+        hinge: { q: "What does Hecate mean by “security is mortals’ chiefest enemy”?", opts: ["Feeling too safe and confident is what destroys people", "Guards and locks are dangerous", "Fear of death is what ruins people", "Strangers are the greatest danger"], correct: 0,
+          why: "“Security” here means overconfidence. Hecate plans to fill Macbeth with false hope so that he ignores wisdom, grace and fear, and walks into his own ruin." } },
+      { type: "extract", key: "a3e20", short: "3.5 Hecate", mins: 8, read: true, label: "Extract 20", title: "Act 3, Scene 5: Hecate and the witches", sub: "A plan to ruin Macbeth", scene: "3.5",
+        setup: "This short scene comes straight after the feast. The witches’ queen is furious. Listen for what she says about Macbeth’s ambition and what she plans to do with it.",
+        think: "With a partner (30 seconds): Hecate says Macbeth ‘loves for his own ends, not for you’. What does this tell us about his ambition?", thinkSecs: 30,
+        task: "Underline the words that describe Macbeth. Circle the line that explains how Hecate plans to destroy him.",
+        lines: [
+          SP("First Witch"), L(1, "Why, how now, Hecate? You look angerly."),
+          SP("Hecate"), L(2, "Have I not reason, beldams as you are?"), L(3, "Saucy and overbold, how did you dare"), L(4, "To trade and traffic with Macbeth"), L(5, "In riddles and affairs of death,"), L(6, "And I, the mistress of your charms,"), L(7, "The close contriver of all harms,"), L(8, "Was never called to bear my part"), L(9, "Or show the glory of our art?"), L(10, "And which is worse, all you have done"), L(11, "Hath been but for a wayward son,"), L(12, "Spiteful and wrathful, who, as others do,"), L(13, "Loves for his own ends, not for you."),
+          GAP("[…Hecate tells the witches to meet her in the morning at the pit of Acheron, where Macbeth will come to learn his fate, and says she will catch a magic drop from the moon…]"),
+          SP("Hecate"), L(26, "And that, distilled by magic sleights,"), L(27, "Shall raise such artificial sprites"), L(28, "As by the strength of their illusion"), L(29, "Shall draw him on to his confusion."), L(30, "He shall spurn fate, scorn death, and bear"), L(31, "His hopes ’bove wisdom, grace, and fear."), L(32, "And you all know, security"), L(33, "Is mortals’ chiefest enemy."),
+          GAP("[…Hecate is called away by music and exits. The witches follow her…]")
+        ],
+        gloss: [["beldams", "old hags, witches"], ["saucy", "insolent, cheeky"], ["trade and traffic", "deal, do business"], ["close contriver", "secret planner"], ["wayward", "stubborn, disobedient"], ["sleights", "tricks, skills"], ["artificial sprites", "spirits made by magic"], ["confusion", "ruin, destruction"], ["security", "overconfidence, feeling too safe"]] },
+      { type: "link", key: "a3l8", short: "Story 3.6", mins: 3, title: "Two lords talk in private",
+        text: "Two lords talk privately. Lennox pretends to {{praise}} Macbeth for killing Duncan’s guards in ‘pious rage’, but he means the {{opposite}}: he is hinting that Macbeth is guilty. He calls Macbeth a ‘tyrant’. We learn that {{Macduff}} refused to come to the feast, and has gone to England to ask Malcolm and the English king for {{help}}. Macbeth is preparing for war.",
+        hinge: { q: "What is Lennox really doing when he praises Macbeth?", opts: ["Speaking sarcastically: he means the opposite of what he says", "Honestly praising Macbeth’s loyalty", "Warning Macbeth that Macduff is plotting", "Lying to protect Malcolm"], correct: 0,
+          why: "“Was not that nobly done? Ay, and wisely, too” is sarcasm. Lennox says one thing while meaning another, so the real meaning shows through. That is verbal irony." } },
+      { type: "extract", key: "a3e21", short: "3.6 Lennox", mins: 12, read: true, label: "Extract 21", title: "Act 3, Scene 6: Lennox and the Lord", sub: "Saying the opposite of what you mean", scene: "3.6",
+        setup: "Lennox speaks to another lord, and nobody else can hear. He has to be careful: the king has spies in every house. Listen for how he says one thing while meaning another.",
+        think: "With a partner (30 seconds): Lennox asks ‘Was not that nobly done?’ Does he mean it? How can you tell?", thinkSecs: 30,
+        task: "Underline two lines where Lennox seems to praise Macbeth. Circle the word that shows what Lennox really thinks of him.",
+        lines: [
+          SP("Lennox"),
+          L(1, "My former speeches have but hit your thoughts,"), L(2, "Which can interpret farther. Only I say"), L(3, "Things have been strangely borne. The gracious"), L(4, "Duncan"), L(5, "Was pitied of Macbeth; marry, he was dead."), L(6, "And the right valiant Banquo walked too late,"), L(7, "Whom you may say, if ’t please you, Fleance killed,"), L(8, "For Fleance fled. Men must not walk too late."), L(9, "Who cannot want the thought how monstrous"), L(10, "It was for Malcolm and for Donalbain"), L(11, "To kill their gracious father? Damnèd fact,"), L(12, "How it did grieve Macbeth! Did he not straight"), L(13, "In pious rage the two delinquents tear"), L(14, "That were the slaves of drink and thralls of sleep?"), L(15, "Was not that nobly done? Ay, and wisely, too,"), L(16, "For ’twould have angered any heart alive"), L(17, "To hear the men deny ’t. So that I say"), L(18, "He has borne all things well. And I do think"), L(19, "That had he Duncan’s sons under his key"), L(20, "(As, an ’t please heaven, he shall not) they should"), L(21, "find"), L(22, "What ’twere to kill a father. So should Fleance."), L(23, "But peace. For from broad words, and ’cause he"), L(24, "failed"), L(25, "His presence at the tyrant’s feast, I hear"), L(26, "Macduff lives in disgrace. Sir, can you tell"), L(27, "Where he bestows himself?"),
+          GAP("[…The Lord says that Malcolm is in the English court, and that Macduff has gone there to ask King Edward for help. Macbeth is preparing for war. Macduff refused to come when Macbeth sent for him…]"),
+          SP("Lennox"), L(49, "And that well might"), L(50, "Advise him to a caution t’ hold what distance"), L(51, "His wisdom can provide. Some holy angel"), L(52, "Fly to the court of England and unfold"), L(53, "His message ere he come, that a swift blessing"), L(54, "May soon return to this our suffering country"), L(55, "Under a hand accursed."),
+          SP("Lord"), L(56, "I’ll send my prayers with him."),
+          ST("They exit.", "s56")
+        ],
+        gloss: [["hit your thoughts", "matched what you were already thinking"], ["borne", "managed, handled"], ["marry", "indeed (a mild exclamation)"], ["delinquents", "offenders (the guards)"], ["thralls of sleep", "slaves to sleep"], ["pious rage", "holy, righteous anger (said sarcastically)"], ["under his key", "locked up in his power"], ["tyrant", "a cruel, unjust ruler"], ["bestows himself", "is staying"], ["unfold", "reveal"]] },
+      { type: "plenary", key: "a3h3-end", short: "Exit", mins: 8, title: "Exit ticket",
+        ticket: [
+          { q: "Explain what verbal irony means, and give one example from Lennox’s speech.", a: "Verbal irony is saying the opposite of what you mean so that the real meaning shows through. Lennox says “Was not that nobly done? Ay, and wisely, too” about Macbeth killing the guards, but he means that it was a cover-up." },
+          { q: "Appearance vs reality: Lennox says “He has borne all things well.” What does he really think? Find another word that shows it.", a: "He really thinks Macbeth is guilty of the murders. He calls the feast “the tyrant’s feast”, which shows what he thinks when he is out of Macbeth’s hearing." },
+          { q: "What does Hecate mean by “security is mortals’ chiefest enemy”, and how might it apply to Macbeth?", a: "“Security” means overconfidence. She plans to make Macbeth feel invincible so that he ignores wisdom and fear. Macbeth is already acting without thinking (“acted ere they may be scanned”), and he is about to trust the witches’ promises." },
+          { q: "Ambition tracker: in Act 1 the witches approached Macbeth. At the end of the feast he says he will go to them. What does this show about how his ambition has changed?", a: "In Act 1 the witches came to him and he was surprised and unsure. Now he goes looking for them “by the worst means”. His ambition has become something he chases, and he is willing to use any means to feel safe." },
+          { q: "Which character do you think has changed most so far in Act 3: Macbeth or Lady Macbeth? Give one reason.", a: "Open answer. For example: Macbeth, because he now plans murder without telling his wife; or Lady Macbeth, because she is unhappy (“Naught’s had, all’s spent”) and has to ask what is happening. This question leads into Lesson 4." } ],
+        next: "Next lesson: we go back to two scenes, 3.2 and the ghost at the feast, to annotate how Macbeth and Lady Macbeth are changing." }
+    ],
+    aims: {
+      li: "To explore how the ghost, Hecate and Lennox show that Macbeth’s mask is failing and that his ambition is about to destroy him, and to understand what verbal irony is.",
+      sc: ["I can explain what verbal irony means.", "I can explain what Hecate means by “security is mortals’ chiefest enemy”.", "I can explain what Lennox really thinks of Macbeth."],
+      stretch: "I can explain how Lennox’s words show appearance against reality.",
+      word: { w: "verbal irony", m: "saying the opposite of what you mean, so that the real meaning shows through. (This is different from dramatic irony.)", eg: "Lennox says “Was not that nobly done?” about the killing of the guards, but he means the reverse. Use the term in one sentence today." },
+      bridge: "At the end of the last lesson, a murderer told Macbeth that Fleance had escaped, and Banquo’s ghost sat in Macbeth’s seat. Today we see what follows."
+    }
+  },
+
+  {
+    title: "Act 3, Lesson 4", subtitle: "Close reading: Scene 3.2 and the ghost at the feast",
+    steps: [
+      { type: "aims", key: "a3h4-aims", short: "Aims", mins: 5, title: "Today’s lesson",
+        doNow: { title: "Do now: what do you remember?", qa: [
+          { q: "In Act 1, what did Lady Macbeth tell Macbeth to look like?", a: "“Look like th’ innocent flower, / But be the serpent under ’t.”" },
+          { q: "What did Hecate say is the greatest danger to Macbeth?", a: "Overconfidence: “security / Is mortals’ chiefest enemy.”" },
+          { q: "Which two scenes in Act 3 show Macbeth and Lady Macbeth together?", a: "Scene 3.2 (alone, before the murder of Banquo) and Scene 3.4 (the feast and the ghost)." } ] } },
+      { type: "extract", key: "a3e22", short: "3.2 Annotate", mins: 20, label: "Extract 22", title: "Act 3, Scene 2: Lady Macbeth and Macbeth", sub: "Role reversal and the masks", scene: "3.2",
+        setup: "We start with Lady Macbeth alone, as she was in Act 1 Scene 5. Then Macbeth comes in. Notice who asks the questions and who gives the answers, and notice every time someone talks about faces, masks or looking a certain way.",
+        think: "With a partner (30 seconds): who is more in control in this scene, Macbeth or Lady Macbeth? Find one line for each.", thinkSecs: 30,
+        task: "Underline the line where Lady Macbeth admits she is unhappy. Circle the line where Macbeth tells her he will not share his plan.",
+        lines: [
+          SP("Lady Macbeth"),
+          L(1, "Is Banquo gone from court?"),
+          SP("Servant"), L(2, "Ay, madam, but returns again tonight."),
+          SP("Lady Macbeth"), L(3, "Say to the King I would attend his leisure"), L(4, "For a few words."),
+          SP("Servant"), L(5, "Madam, I will."),
+          ST("He exits.", "s5"),
+          SP("Lady Macbeth"),
+          L(6, "Naught’s had, all’s spent,"), L(7, "Where our desire is got without content."), L(8, "’Tis safer to be that which we destroy"), L(9, "Than by destruction dwell in doubtful joy."),
+          ST("Enter Macbeth.", "s9"),
+          L(10, "How now, my lord, why do you keep alone,"), L(11, "Of sorriest fancies your companions making,"), L(12, "Using those thoughts which should indeed have died"), L(13, "With them they think on? Things without all remedy"), L(14, "Should be without regard. What’s done is done."),
+          SP("Macbeth"),
+          L(15, "We have scorched the snake, not killed it."), L(16, "She’ll close and be herself whilst our poor malice"), L(17, "Remains in danger of her former tooth."), L(18, "But let the frame of things disjoint, both the worlds"), L(19, "suffer,"), L(20, "Ere we will eat our meal in fear, and sleep"), L(21, "In the affliction of these terrible dreams"), L(22, "That shake us nightly. Better be with the dead,"), L(23, "Whom we, to gain our peace, have sent to peace,"), L(24, "Than on the torture of the mind to lie"), L(25, "In restless ecstasy. Duncan is in his grave."), L(26, "After life’s fitful fever he sleeps well."), L(27, "Treason has done his worst; nor steel nor poison,"), L(28, "Malice domestic, foreign levy, nothing"), L(29, "Can touch him further."),
+          SP("Lady Macbeth"),
+          L(30, "Come on, gentle my lord,"), L(31, "Sleek o’er your rugged looks. Be bright and jovial"), L(32, "Among your guests tonight."),
+          SP("Macbeth"),
+          L(33, "So shall I, love,"), L(34, "And so I pray be you. Let your remembrance"), L(35, "Apply to Banquo; present him eminence"), L(36, "Both with eye and tongue: unsafe the while that we"), L(37, "Must lave our honors in these flattering streams"), L(38, "And make our faces vizards to our hearts,"), L(39, "Disguising what they are."),
+          SP("Lady Macbeth"), L(40, "You must leave this."),
+          SP("Macbeth"), L(41, "O, full of scorpions is my mind, dear wife!"), L(42, "Thou know’st that Banquo and his Fleance lives."),
+          SP("Lady Macbeth"), L(43, "But in them nature’s copy’s not eterne."),
+          SP("Macbeth"), L(44, "There’s comfort yet; they are assailable."), L(45, "Then be thou jocund. Ere the bat hath flown"), L(46, "His cloistered flight, ere to black Hecate’s summons"), L(47, "The shard-born beetle with his drowsy hums"), L(48, "Hath rung night’s yawning peal, there shall be done"), L(49, "A deed of dreadful note."),
+          SP("Lady Macbeth"), L(50, "What’s to be done?"),
+          SP("Macbeth"), L(51, "Be innocent of the knowledge, dearest chuck,"), L(52, "Till thou applaud the deed.—Come, seeling night,"), L(53, "Scarf up the tender eye of pitiful day"), L(54, "And with thy bloody and invisible hand"), L(55, "Cancel and tear to pieces that great bond"), L(56, "Which keeps me pale. Light thickens, and the crow"), L(57, "Makes wing to th’ rooky wood."), L(58, "Good things of day begin to droop and drowse,"), L(59, "Whiles night’s black agents to their preys do"), L(60, "rouse.—"), L(61, "Thou marvel’st at my words, but hold thee still."), L(62, "Things bad begun make strong themselves by ill."), L(63, "So prithee go with me.")
+        ],
+        notes: [
+          { id: "a3n22-1", at: 1, phrase: "Is Banquo gone from court?", title: "Banquo on her mind",
+            meaning: "Lady Macbeth’s first question is whether Banquo has left the court. She is checking where he is.",
+            effect: "She senses danger from Banquo, but she does not know what Macbeth has planned. In Act 1 she was the planner. Now she is the one asking questions and waiting for answers.",
+            ask: "Why might she want to know where Banquo is?", tags: ["lady", "ambition"] },
+          { id: "a3n22-2", from: 3, to: 5, title: "Asking permission to see her husband",
+            meaning: "She asks a servant to tell the King that she would like ‘a few words’ with him.",
+            effect: "She calls her husband ‘the King’, and she has to send a servant to ask for a private word. In Act 1 she ordered him about: ‘Leave all the rest to me.’ Their marriage has become more formal and more distant.",
+            ask: "What has changed between them since Act 1 Scene 5?", tags: ["lady", "ahead"] },
+          { id: "a3n22-3", from: 6, to: 7, title: "Nothing gained, everything spent",
+            meaning: "‘Naught’ means nothing. She says that nothing has really been won and everything has been used up, when what you wanted is got but brings no ‘content’ (contentment).",
+            effect: "Alone, she admits what she could not say in front of anyone: the crown has not made her happy. The short, blunt words make the line sound like a bargain gone wrong. In Act 1 she imagined ‘the golden round’; now she says that getting it was not worth the cost.",
+            ask: "Why does Shakespeare let us hear this when she is alone?", tags: ["ambition", "language", "lady", "peel"] },
+          { id: "a3n22-4", from: 8, to: 9, title: "Safer to be the victim",
+            meaning: "She says it is safer to be the person you have destroyed than to live in ‘doubtful joy’ (happiness you cannot trust) after destroying them.",
+            effect: "She envies Duncan. ‘Destroy’ and ‘destruction’ repeat, so the crime seems stuck in the line. Notice that she says ‘we’: she shares the guilt. Compare Act 2 Scene 2: ‘A little water clears us of this deed.’ She no longer believes it. In Act 5 her guilt will break out when she sleepwalks.",
+            ask: "How is this different from the Lady Macbeth who said ‘A little water clears us of this deed’?", tags: ["ambition", "guilt", "lady", "ahead", "peel"] },
+          { id: "a3n22-5", from: 10, to: 14, title: "Telling him what she cannot tell herself",
+            meaning: "She asks why he keeps alone with ‘sorriest fancies’ (miserable thoughts), and says that things that cannot be mended should be forgotten: ‘What’s done is done.’",
+            effect: "Moments after her own speech, she gives Macbeth the opposite advice to what she has just admitted she feels. The audience knows she is not as calm as she sounds. That gap between the private woman and the public voice is appearance against reality. Listen for ‘What’s done cannot be undone’ in Act 5.",
+            ask: "Does Lady Macbeth believe her own advice? Use her first four lines to decide.", tags: ["appearance", "irony", "lady", "ahead", "peel"] },
+          { id: "a3n22-6", from: 15, to: 17, title: "The snake is only scorched",
+            meaning: "Macbeth says they have scorched (wounded) the snake without killing it, so it will heal and bite again with its ‘former tooth’.",
+            effect: "In Act 1 she told him to ‘be the serpent under ’t’. Now the snake is the danger. Macbeth cannot rest, because he sees threats everywhere. He is no longer tormented only by what he has done; he is tormented by what might be done to him.",
+            ask: "Who was the serpent in Act 1 Scene 5? Who is it now?", tags: ["ambition", "language", "appearance", "peel"] },
+          { id: "a3n22-7", from: 18, to: 29, title: "Better to be dead",
+            meaning: "Macbeth would rather the whole universe fell apart than live in fear with terrible dreams every night. He says it is better to be with the dead whom they sent ‘to peace’, and that Duncan, after ‘life’s fitful fever’, ‘sleeps well’.",
+            effect: "He envies Duncan in almost the same way Lady Macbeth did alone. Neither knows the other thinks it, because each hides it. The audience, not the couple, hears both: dramatic irony. His ambition has won him a throne and lost him peace and sleep. Remember ‘Macbeth shall sleep no more’ from Act 2.",
+            ask: "What has Macbeth lost: peace, sleep, or both? Find a word that proves it.", tags: ["ambition", "guilt", "irony", "language", "peel"] },
+          { id: "a3n22-8", from: 30, to: 32, title: "“Sleek o’er your rugged looks”",
+            meaning: "She tells him to smooth out his rough, worried face and to be ‘bright and jovial’ among the guests tonight.",
+            effect: "This is the mask again. In Act 1 she taught him to ‘look like th’ innocent flower’. Even though she has just admitted she is unhappy, she still believes that the answer is to make the outside look right. Appearance is her way of managing reality.",
+            ask: "Why is a smooth face so important to her?", tags: ["appearance", "lady", "peel"] },
+          { id: "a3n22-9", from: 33, to: 39, title: "Faces like masks",
+            meaning: "Macbeth agrees, and says they must honour Banquo with their eyes and tongues. ‘Vizards’ are masks. He says their faces must be masks over their hearts, hiding what they really are.",
+            effect: "Macbeth now says the mask idea better than she did. In Act 1 Scene 7 he ended with ‘False face must hide what the false heart doth know’; now the false face is a ‘vizard’. And he plans to ‘present’ Banquo ‘eminence’ (honour him) while arranging Banquo’s death: dramatic irony, because the audience watched him hire the murderers. He has learned the lesson of appearance so well that he is teaching it.",
+            ask: "Who is the better actor now, Macbeth or Lady Macbeth?", tags: ["appearance", "irony", "ambition", "language", "peel"] },
+          { id: "a3n22-10", from: 40, to: 42, title: "Scorpions",
+            meaning: "Lady Macbeth tells him to ‘leave this’ (stop brooding). He says his mind is ‘full of scorpions’, because Banquo and Fleance are still alive.",
+            effect: "A scorpion is a small creature that stings. The image says his thoughts are crawling, poisonous things. His ambition has turned inward and become a torment. Notice ‘Thou know’st’: he assumes she shares his fear of Banquo, even though he has not told her his plan.",
+            ask: "Why is a mind ‘full of scorpions’ stronger than a mind that is ‘worried’?", tags: ["ambition", "language", "guilt", "peel"] },
+          { id: "a3n22-11", at: 43, phrase: "But in them nature’s copy’s not eterne.", title: "Banquo can die",
+            meaning: "She says that nature’s ‘copy’ (the lease on life held by Banquo and Fleance) is ‘not eterne’: they will not live for ever.",
+            effect: "Directors disagree here. Some have Lady Macbeth hint at murder; others have her only comforting him with the idea that everyone dies. Macbeth takes it as a hint: ‘There’s comfort yet; they are assailable.’",
+            ask: "Is she suggesting murder, or only comforting him? Find a reason for each view.", tags: ["lady", "ambition", "ahead"] },
+          { id: "a3n22-12", at: 50, phrase: "What’s to be done?", title: "Word to know: role reversal",
+            meaning: "She asks ‘What’s to be done?’: what are you going to do?",
+            effect: "In Act 1 she said ‘Leave all the rest to me’ and took charge of the murder. Now she has to ask what her husband is planning. When two characters swap the positions they held earlier, that is a role reversal: today’s word. He used to need her; now she needs to be told.",
+            ask: "Find one thing Lady Macbeth controlled in Act 1 Scene 7 that Macbeth controls here.", tags: ["lady", "ambition", "ahead", "peel"] },
+          { id: "a3n22-13", from: 51, to: 52, title: "Innocent of the knowledge",
+            meaning: "‘Be innocent of the knowledge’: stay ignorant of the plan until it is finished, and then you can applaud it. ‘Chuck’ is a tender word, like ‘chick’.",
+            effect: "A loving word covers a shutting-out: he calls her ‘dearest chuck’ while telling her she is not trusted with the truth. The word ‘innocent’ is ironic. In Act 1 she told him to look innocent while being guilty. Now he wants her to be innocent by knowing nothing. The kind surface hides a real distance.",
+            ask: "How can one phrase be both affectionate and cold?", tags: ["appearance", "irony", "lady", "ambition", "peel"] },
+          { id: "a3n22-14", from: 53, to: 57, title: "“Come, seeling night”",
+            meaning: "He calls on night to blind the ‘tender eye of pitiful day’ and to cancel ‘that great bond’ that keeps him pale. ‘Seeling’ means sewing up the eyelids, as a hunter did to a hawk.",
+            effect: "In Act 1 Scene 5 Lady Macbeth called on ‘thick night’ to hide her ‘keen knife’ from heaven. Macbeth now uses her kind of language: the same darkness, the same wish that nobody should see. He has taken over her voice. What the ‘bond’ is is not explained, which adds to the menace.",
+            ask: "Which words here remind you of Lady Macbeth in Act 1 Scene 5?", tags: ["language", "ambition", "lady", "peel"] },
+          { id: "a3n22-15", from: 61, to: 62, title: "“Things bad begun”",
+            meaning: "He tells her to stay quiet: ‘Things bad begun make strong themselves by ill’. Wrong deeds can only be kept safe by doing more wrong.",
+            effect: "This rhyming couplet is the scene’s verdict: ambition won by crime must be defended by more crime. In Act 1 Scene 7 Macbeth worried that bloody instructions ‘return / To plague th’ inventor’. He has stopped worrying about that.",
+            ask: "Is Macbeth’s ambition now a wish, or a habit?", tags: ["ambition", "language", "ahead", "peel"] }
+        ],
+        gloss: [["content", "contentment, satisfaction"], ["sorriest fancies", "most miserable thoughts"], ["scorched", "wounded, slashed"], ["malice", "wickedness (here, their plan)"], ["ecstasy", "violent distress, frenzy"], ["vizards", "masks"], ["lave", "wash"], ["eterne", "eternal"], ["assailable", "able to be attacked"], ["jocund", "cheerful, merry"], ["chuck", "a term of affection, like ‘chick’"], ["seeling", "blinding (from sewing a hawk’s eyelids shut)"], ["rooky", "full of rooks (crows)"]] },
+      { type: "extract", key: "a3e23", short: "3.4 Annotate", mins: 20, label: "Extract 23", title: "Act 3, Scene 4: the ghost and the guests", sub: "Appearance and reality at the feast", scene: "3.4",
+        setup: "This is the longest and most dramatic scene of the act. Watch Lady Macbeth switch between speaking to the lords and speaking privately to her husband. Then watch what happens to both of them once the guests have gone. Skipped parts are shown in italics.",
+        think: "With a partner (30 seconds): Lady Macbeth keeps up a perfect public face. Does she manage to keep control by the end of the scene?", thinkSecs: 30,
+        task: "Underline one line where Lady Macbeth protects the appearance of the feast. Circle the line where Macbeth says he cannot turn back.",
+        lines: [
+          SP("Macbeth"), L(59, "Which of you have done this?"),
+          SP("Lords"), L(60, "What, my good lord?"),
+          SP("Macbeth, to the Ghost"), L(61, "Thou canst not say I did it. Never shake"), L(62, "Thy gory locks at me."),
+          SP("Ross"), L(63, "Gentlemen, rise. His Highness is not well."),
+          SP("Lady Macbeth"), L(64, "Sit, worthy friends. My lord is often thus"), L(65, "And hath been from his youth. Pray you, keep seat."), L(66, "The fit is momentary; upon a thought"), L(67, "He will again be well. If much you note him"), L(68, "You shall offend him and extend his passion."), L(69, "Feed and regard him not."),
+          ST("She draws Macbeth aside.", "s69"),
+          L(70, "Are you a man?"),
+          SP("Macbeth"), L(71, "Ay, and a bold one, that dare look on that"), L(72, "Which might appall the devil."),
+          SP("Lady Macbeth"), L(73, "O, proper stuff!"), L(74, "This is the very painting of your fear."), L(75, "This is the air-drawn dagger which you said"), L(76, "Led you to Duncan. O, these flaws and starts,"), L(77, "Impostors to true fear, would well become"), L(78, "A woman’s story at a winter’s fire,"), L(79, "Authorized by her grandam. Shame itself!"), L(80, "Why do you make such faces? When all’s done,"), L(81, "You look but on a stool."),
+          SP("Macbeth"), L(82, "Prithee, see there. Behold, look! [To the Ghost.] Lo,"), L(83, "how say you?"),
+          GAP("[…Macbeth challenges the Ghost, which then exits…]"),
+          SP("Lady Macbeth"), L(88, "What, quite unmanned in folly?"),
+          SP("Macbeth"), L(89, "If I stand here, I saw him."),
+          SP("Lady Macbeth"), L(90, "Fie, for shame!"),
+          GAP("[…Macbeth says that in the olden days murdered men stayed dead…]"),
+          SP("Macbeth"), L(98, "And push us from our stools. This is more strange"), L(99, "Than such a murder is."),
+          SP("Lady Macbeth"), L(100, "My worthy lord,"), L(101, "Your noble friends do lack you."),
+          SP("Macbeth"), L(102, "I do forget.—"), L(103, "Do not muse at me, my most worthy friends."), L(104, "I have a strange infirmity, which is nothing"), L(105, "To those that know me. Come, love and health to"), L(106, "all."), L(107, "Then I’ll sit down.—Give me some wine. Fill full."),
+          ST("Enter Ghost.", "s107"),
+          L(108, "I drink to th’ general joy o’ th’ whole table"), L(109, "And to our dear friend Banquo, whom we miss."), L(110, "Would he were here! To all, and him we thirst,"), L(111, "And all to all."),
+          GAP("[…Macbeth shouts at the Ghost again. Lady Macbeth tells the lords to think of it as a thing of custom, and Macbeth dares the ghost to take any shape but its own…]"),
+          SP("Macbeth"), L(128, "The baby of a girl. Hence, horrible shadow!"), L(129, "Unreal mock’ry, hence! [Ghost exits.]"), L(130, "Why so, being gone,"), L(131, "I am a man again.—Pray you sit still."),
+          SP("Lady Macbeth"), L(132, "You have displaced the mirth, broke the good"), L(133, "meeting"), L(134, "With most admired disorder."),
+          SP("Macbeth"), L(135, "Can such things be"), L(136, "And overcome us like a summer’s cloud,"), L(137, "Without our special wonder? You make me strange"), L(138, "Even to the disposition that I owe"), L(139, "When now I think you can behold such sights"), L(140, "And keep the natural ruby of your cheeks"), L(141, "When mine is blanched with fear."),
+          GAP("[…Ross asks ‘What sights, my lord?’…]"),
+          SP("Lady Macbeth"), L(144, "I pray you, speak not. He grows worse and worse."), L(145, "Question enrages him. At once, good night."), L(146, "Stand not upon the order of your going,"), L(147, "But go at once."),
+          GAP("[…Lennox says good night. Lady Macbeth says ‘A kind good night to all.’ The lords exit, leaving Macbeth and Lady Macbeth alone…]"),
+          SP("Macbeth"), L(151, "It will have blood, they say; blood will have blood."),
+          GAP("[…Macbeth asks if she knows that Macduff refused to come when summoned, and says he keeps a paid servant in every house…]"),
+          SP("Macbeth"), L(165, "(And betimes I will) to the Weïrd Sisters."), L(166, "More shall they speak, for now I am bent to know"), L(167, "By the worst means the worst. For mine own good,"), L(168, "All causes shall give way. I am in blood"), L(169, "Stepped in so far that, should I wade no more,"), L(170, "Returning were as tedious as go o’er."), L(171, "Strange things I have in head that will to hand,"), L(172, "Which must be acted ere they may be scanned."),
+          SP("Lady Macbeth"), L(173, "You lack the season of all natures, sleep."),
+          SP("Macbeth"), L(174, "Come, we’ll to sleep. My strange and self-abuse"), L(175, "Is the initiate fear that wants hard use."), L(176, "We are yet but young in deed."),
+          ST("They exit.", "s176")
+        ],
+        notes: [
+          { id: "a3n23-1", from: 59, to: 62, title: "The mask slips",
+            meaning: "Macbeth asks the lords ‘Which of you have done this?’ When they answer ‘What, my good lord?’, he speaks to the Ghost: ‘Thou canst not say I did it.’",
+            effect: "In 3.1 he was calm and polite. Here the mask slips in public. The lords are puzzled because they can see nothing, so the audience hears Macbeth giving himself away. ‘Thou canst not say I did it’ is a denial of an accusation nobody has made. That is dramatic irony: we know what ‘this’ is; the lords do not.",
+            ask: "What does the denial tell us about how Macbeth sees his own guilt?", tags: ["appearance", "irony", "guilt", "peel"] },
+          { id: "a3n23-2", from: 64, to: 68, title: "Lady Macbeth takes control of the room",
+            meaning: "Lady Macbeth tells the lords to sit: her lord ‘is often thus’, has been since youth, and the fit is ‘momentary’. If they look at him too much, they will make him worse.",
+            effect: "She invents a past for him on the spot, using the polite phrase ‘worthy friends’. She does not just hide the truth: she controls where the lords look. This is the mask under pressure, and her best moment of control in the scene. Compare Act 2 Scene 2, where she took control by giving practical orders.",
+            ask: "How does she keep the lords seated and quiet?", tags: ["lady", "appearance", "peel"] },
+          { id: "a3n23-3", at: 70, phrase: "Are you a man?", title: "“Are you a man?”",
+            meaning: "In private, she asks him whether he is a man.",
+            effect: "She uses the same weapon as in Act 1 Scene 7, where she said ‘When you durst do it, then you were a man.’ Then it pushed him into murder; here it does not stop his terror. Notice the change from smooth hostess to harsh private voice in one line. The woman who asked to be ‘unsexed’ is again challenging his manhood.",
+            ask: "Why does she go back to manhood as her argument? Why does it work less well this time?", tags: ["lady", "ambition", "appearance", "peel"] },
+          { id: "a3n23-4", from: 71, to: 72, title: "“A bold one”",
+            meaning: "He answers ‘Ay, and a bold one’: he claims to be brave because he dares to look at something that might frighten even the devil.",
+            effect: "Macbeth’s idea of being a man has always been about daring (‘I dare do all that may become a man’ in Act 1). He still wants to be brave, but the thing he dares to look at is his own guilt. Courage and fear have become the same thing.",
+            tags: ["ambition", "language", "guilt"] },
+          { id: "a3n23-5", from: 73, to: 81, title: "“The very painting of your fear”",
+            meaning: "She says that what he sees is only a ‘painting’, an ‘air-drawn dagger’, a thing for a ‘woman’s story at a winter’s fire’. ‘When all’s done, you look but on a stool.’",
+            effect: "For Lady Macbeth the only reality is what everyone can see: a stool. For Macbeth the reality is the ghost, and in many productions the audience can see it too. This is appearance against reality at its sharpest. Notice the insult: she, who asked to be ‘unsexed’, calls his fear womanish. She also reuses the ‘painted devil’ idea from Act 2 Scene 2: she believes that fear is only a picture.",
+            ask: "Who is right about what is real here, Macbeth or Lady Macbeth?", tags: ["lady", "appearance", "irony", "language", "peel"] },
+          { id: "a3n23-6", from: 88, to: 90, title: "Unmanned in folly",
+            meaning: "‘What, quite unmanned in folly?’ she asks after the Ghost leaves. He answers ‘If I stand here, I saw him.’ She says ‘Fie, for shame!’",
+            effect: "Her sentences all shame him; his are short, stubborn statements of what he saw. Her power to calm him has limits: she can control the room, but she cannot control what he sees. In Act 2 she took the daggers away; here there is nothing she can take.",
+            ask: "What can Lady Macbeth control in this scene, and what can she not?", tags: ["lady", "appearance", "ahead"] },
+          { id: "a3n23-7", from: 98, to: 99, title: "Pushed from our stools",
+            meaning: "He says murdered men used to stay dead. Now they ‘rise again… and push us from our stools’, which is stranger than the murder itself.",
+            effect: "‘Stools’ picks up Lady Macbeth’s phrase that he ‘looks but on a stool’. A king can be pushed from his seat. His fear is not only the dead man but the loss of the throne: ambition has become the fear of being replaced.",
+            ask: "Why might it frighten a king to be ‘pushed from a stool’?", tags: ["ambition", "language", "ahead", "irony"] },
+          { id: "a3n23-8", from: 102, to: 107, title: "“A strange infirmity”",
+            meaning: "Macbeth says he forgets himself, asks the lords not to ‘muse’ (wonder) at him, says he has a ‘strange infirmity’ that is nothing to those who know him, then calls for wine.",
+            effect: "He has taken her cover story and now says it himself. In 3.2 he promised ‘make our faces vizards to our hearts’; here the mask is back on. But watch what he does next: he fills his cup and toasts Banquo.",
+            ask: "How do Macbeth’s words here copy Lady Macbeth’s earlier lines?", tags: ["appearance", "irony", "lady", "peel"] },
+          { id: "a3n23-9", from: 108, to: 111, title: "A toast to the man he killed",
+            meaning: "He drinks to the joy of the whole table and to ‘our dear friend Banquo, whom we miss’. ‘Would he were here!’",
+            effect: "He toasts a man he had murdered, and says he wishes him here, just after the Ghost has re-entered. In 3.2 he said ‘present him eminence’ (honour him): this is exactly that, taken too far. His own lie is turned back on him. A powerful example of dramatic irony and of appearance against reality.",
+            ask: "Why is the toast the worst possible thing for Macbeth to say?", tags: ["irony", "appearance", "guilt", "peel"] },
+          { id: "a3n23-10", from: 128, to: 131, title: "“I am a man again”",
+            meaning: "‘The baby of a girl’ is the insult he would deserve if he trembled. When the Ghost leaves he says ‘Hence, horrible shadow! Unreal mock’ry, hence!’ and ‘Why so, being gone, I am a man again.’",
+            effect: "His manhood depends on what is in front of him. Now he calls the ghost ‘unreal mock’ry’, which is almost Lady Macbeth’s opinion. This is a mock-brave ending to a scene of fear. The insult ‘baby of a girl’ repeats the manhood theme that Lady Macbeth used against him in Act 1.",
+            ask: "Why does Macbeth need to say ‘I am a man again’ out loud?", tags: ["appearance", "language", "ambition"] },
+          { id: "a3n23-11", from: 132, to: 141, title: "“You make me strange”",
+            meaning: "She says he has spoiled the party ‘with most admired disorder’ (amazing disorder). He replies that she makes him a stranger to himself, because she can see such sights and still keep ‘the natural ruby of your cheeks’ while his are ‘blanched with fear’.",
+            effect: "Macbeth thinks she is fearless: her cheeks stay red while his go white. He does not see that her calm is a performance. The mask is working perfectly, even on her husband. He is now an outsider in his own marriage.",
+            ask: "Is Lady Macbeth really unafraid? What evidence is there in this scene and in 3.2?", tags: ["lady", "appearance", "irony", "peel"] },
+          { id: "a3n23-12", from: 144, to: 147, title: "“The order of your going”",
+            meaning: "She tells the lords not to wait for ceremony: ‘Question enrages him… go at once.’",
+            effect: "This scene began with ceremony: ‘You know your own degrees; sit down.’ It ends with the lords being sent out in disorder. Her skilled control of appearances has run out; she can only end the party. The ‘order’ that Macbeth’s kingdom stands on has collapsed in one night.",
+            ask: "Compare Macbeth’s first line in this scene with this one. What has happened to the feast?", tags: ["lady", "appearance", "ahead"] },
+          { id: "a3n23-13", at: 151, phrase: "blood will have blood", title: "“Blood will have blood”",
+            meaning: "Alone with her, Macbeth says it is said that ‘blood will have blood’: murder is revenged by more murder, or revealed.",
+            effect: "Once the guests have gone, the mask comes off and he speaks truthfully about his fear of discovery. Blood is a repeated image in the play: it is in the dagger speech, on his hands, in the ghost’s ‘gory locks’. Follow its path through the rest of the play.",
+            ask: "Where else in Acts 2 and 3 has blood appeared as an image?", tags: ["guilt", "language", "ahead", "peel"] },
+          { id: "a3n23-14", from: 168, to: 172, title: "“In blood stepped in so far”",
+            meaning: "He says he is ‘in blood stepped in so far’ that, if he stopped wading, going back would be as tiring as going on. He has ‘strange things in head’ that must be done before they can be examined. First, he will go to the witches ‘by the worst means’.",
+            effect: "Ambition has become momentum. Macbeth is no longer choosing to go on; he feels that stopping is just as hard as continuing. In Act 1 Scene 7 he spent a long speech weighing consequences; now he acts first and ‘scans’ later. The man who once hoped chance would crown him now goes looking for fate by the worst means. Compare the dagger speech: ‘Words to the heat of deeds too cold breath gives.’",
+            ask: "Is Macbeth still choosing here, or has the choice already been taken from him?", tags: ["ambition", "language", "ahead", "peel"] },
+          { id: "a3n23-15", at: 173, phrase: "You lack the season of all natures, sleep.", title: "Her reply is a remedy",
+            meaning: "She says he is missing ‘the season of all natures’: sleep.",
+            effect: "The planner of Act 1 now answers with a simple remedy for tiredness. She cannot ask about his plans, as she did in 3.2, or argue with him; she can only suggest rest. Remember that sleep is lost for both of them: ‘Macbeth shall sleep no more’, and she will walk in her sleep in Act 5.",
+            ask: "What does this line suggest about how much power she has left?", tags: ["lady", "guilt", "ahead", "peel"] },
+          { id: "a3n23-16", from: 174, to: 176, title: "“We are yet but young in deed”",
+            meaning: "He says his ‘strange and self-abuse’ (strange self-deception) is the beginner’s fear that needs ‘hard use’ (practice). ‘We are yet but young in deed.’",
+            effect: "He thinks the cure for fear is more crime. ‘Young in deed’ means he sees himself as a beginner; the audience sees a man who is already in too deep. The scene ends on a rhyming couplet that sounds like a decision. Notice who decides: Macbeth speaks and she follows.",
+            ask: "How does this last line sum up how Macbeth’s ambition has changed since Act 2?", tags: ["ambition", "language", "ahead", "peel"] }
+        ],
+        gloss: [["muse", "wonder, be amazed"], ["infirmity", "weakness, illness"], ["flaws and starts", "sudden outbursts and fits"], ["authorized", "vouched for"], ["grandam", "grandmother"], ["unmanned", "robbed of manly courage"], ["admired", "amazing, astonishing"], ["blanched", "turned white"], ["disposition that I owe", "the nature that I own"], ["betimes", "early, in good time"], ["scanned", "closely examined"], ["initiate fear", "the fear of a beginner"]] },
+      { type: "plenary", key: "a3h4-end", short: "Exit", mins: 10, title: "Exit ticket",
+        ticket: [
+          { q: "Find a quotation where Lady Macbeth admits she is not happy.", a: "For example “Naught’s had, all’s spent, / Where our desire is got without content,” or “’Tis safer to be that which we destroy / Than by destruction dwell in doubtful joy.”" },
+          { q: "Explain what “role reversal” means, and show it using “What’s to be done?”", a: "A role reversal is when two characters swap the positions they held earlier. In Act 1 Lady Macbeth planned and Macbeth was unsure. Here she has to ask what is happening (“What’s to be done?”) and Macbeth keeps her out: “Be innocent of the knowledge.”" },
+          { q: "Appearance vs reality: pick one quotation about masks or looking a certain way, and explain what it shows.", a: "For example “make our faces vizards to our hearts, / Disguising what they are”: masks hide what they really feel. Or “Sleek o’er your rugged looks. Be bright and jovial”: Lady Macbeth tells him to hide his worry behind a cheerful face." },
+          { q: "Find a quotation that shows Lady Macbeth protecting appearances in front of the lords.", a: "For example “Sit, worthy friends. My lord is often thus / And hath been from his youth,” or “Feed and regard him not.”" },
+          { q: "Ambition tracker: how has Macbeth changed between the dagger speech (Act 2) and “I am in blood / Stepped in so far” (Act 3)?", a: "In Act 2 he argues with himself and is held back by fear before acting. In Act 3 he acts first and examines later (“acted ere they may be scanned”), because turning back seems as hard as going on. His ambition no longer needs persuading." },
+          { q: "Compare Lady Macbeth in Act 2 Scene 2 (“Give me the daggers”) with Lady Macbeth in Act 3. What has changed, and what has stayed the same?", a: "The same: she still manages appearances and shames Macbeth’s fear (“Infirm of purpose!” / “Are you a man?”). Changed: in Act 2 she controlled events and he followed. In Act 3 she cannot control what he sees, has to ask what is happening (3.2), and ends the feast in disorder. She now reacts rather than leads." } ],
+        next: "Next: Act 4, where Macbeth goes back to the witches, just as Hecate planned." }
+    ],
+    aims: {
+      li: "To analyse how Shakespeare shows Macbeth and Lady Macbeth changing in Act 3, using close reading of language to explore ambition and appearance against reality.",
+      sc: ["I can explain what role reversal means.", "I can find a quotation that shows Lady Macbeth is unhappy even though she has what she wanted.", "I can find a quotation where Lady Macbeth protects the appearance of the feast.", "I can explain what “I am in blood / Stepped in so far” shows about Macbeth’s ambition."],
+      stretch: "I can compare how Macbeth and Lady Macbeth have each changed since Act 2, using two quotations from today’s extracts.",
+      word: { w: "role reversal", m: "when two characters swap the positions they held earlier in the story.", eg: "In Act 1 Lady Macbeth planned the murder and Macbeth hesitated; in Scene 3.2 Macbeth plans and she has to ask what is being done. Use the term in one sentence today." },
+      bridge: "Over three lessons we have read the whole of Act 3. Today we go back to two scenes where Macbeth and Lady Macbeth are on stage together, and annotate them closely."
+    }
+  }
+  ]
+};
+
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const fmt = (s) => esc(s).replace(/\[([^\]]+)\]/g, '<i class="sd">[$1]</i>');
+const SHORT = { ambition: "Ambition", language: "Language", appearance: "Appearance", ahead: "Look ahead", guilt: "Guilt", lady: "Lady Macbeth", peel: "★ PEEL evidence", irony: "Irony" };
+const reduced = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ratings are the only thing kept on the device, and only if the browser allows it */
+const RKEY = "macbeth-act3-ratings";
+function loadRate() { try { return JSON.parse(localStorage.getItem(RKEY) || "{}"); } catch (e) { return {}; } }
+function saveRate() { try { localStorage.setItem(RKEY, JSON.stringify(S.rate)); } catch (e) { /* storage unavailable */ } }
+
+/* S.drawer: which side panel is open (null = closed). S.wide / S.mainHidden: how the two panes share the screen. S.focus: extract-only mode. */
+const S = { view: "lesson", h: 0, s: 0, tag: "all", sel: null, scale: 1, drawer: null, wide: false, mainHidden: false, focus: false, rate: loadRate() };
+const cur = () => DATA.hours[S.h].steps[S.s];
+let DR = {}; /* drawers of the step on screen */
+
+/* order notes by position in the text */
+DATA.hours.forEach((h) => h.steps.forEach((st) => {
+  if (st.type !== "extract") return;
+  if (!st.notes) st.notes = [];
+  const posOf = (n) => {
+    let i;
+    if (n.stage) i = st.lines.findIndex((l) => l.k === "st" && l.key === n.stage);
+    else { const ln = n.at !== undefined ? n.at : n.from; i = st.lines.findIndex((l) => l.k === "ln" && l.n === ln); }
+    return i * 1000 + (n.phrase && !n.stage ? Math.max(0, (st.lines[i].t || "").indexOf(n.phrase)) : 0);
+  };
+  st.notes.forEach((n) => (n._pos = posOf(n)));
+  st.notes.sort((a, b) => a._pos - b._pos);
+}));
+
+const tagOK = (n, tag) => tag === "all" || n.tags.includes(tag);
+const match = (n) => tagOK(n, S.tag);
+const visible = (st) => st.notes.filter(match);
+const byId = (st, id) => st.notes.find((n) => n.id === id);
+
+/* ---------- top bar: lessons menu + navigation ---------- */
+function renderTop() {
+  $("#lbl").textContent = DATA.hours[S.h].title;
+  $("#lmenu").innerHTML = DATA.hours.map((h, i) =>
+    `<button class="lm${i === S.h ? " on" : ""}" data-h="${i}"><b>${esc(h.title)}</b><small>${esc(h.subtitle)}</small></button>`).join("");
+}
+function renderNav() {
+  const nav = $("#nav");
+  const h = DATA.hours[S.h], n = h.steps.length;
+  const first = S.h === 0 && S.s === 0;
+  const lastStep = S.s === n - 1, lastAll = S.h === DATA.hours.length - 1 && lastStep;
+  const nextLabel = !lastStep ? `Next: ${esc(h.steps[S.s + 1].short)}` : lastAll ? "Finished" : "Next lesson";
+  nav.innerHTML =
+    `<button class="btn back" data-act="prev" ${first ? "disabled" : ""} aria-label="${S.s === 0 && !first ? "Last lesson" : "Back"}"><i class="ic ic-back"></i><span class="tx">${S.s === 0 && !first ? "Last lesson" : "Back"}</span></button>` +
+    `<ol class="steps">` + h.steps.map((s, i) =>
+      `<li class="${i < S.s ? "done" : ""}"><button class="stp ${s.type}${i === S.s ? " on" : ""}${i < S.s ? " done" : ""}" data-s="${i}" title="${esc(s.short)} · about ${s.mins} min" ${i === S.s ? 'aria-current="step"' : ""}><span class="pn">${i + 1}</span><span class="pl">${esc(s.short)}</span></button></li>`).join("") + `</ol>` +
+    `<button class="btn primary next" data-act="next" ${lastAll ? "disabled" : ""}><span class="tx">${nextLabel}</span><i class="ic ic-next"></i></button>`;
+}
+
+/* ---------- bottom bar: theme filters (notes) ---------- */
+function chipRow(notes, active) {
+  const counts = {};
+  notes.forEach((n) => n.tags.forEach((t) => (counts[t] = (counts[t] || 0) + 1)));
+  return `<span class="fl">Show notes about</span><button class="chip${active === "all" ? " on" : ""}" data-tag="all">All (${notes.length})</button>` +
+    Object.keys(DATA.TAGS).filter((t) => counts[t]).map((t) =>
+      `<button class="chip tg-${t}${active === t ? " on" : ""}" data-tag="${t}"><i class="dot"></i>${esc(SHORT[t])} (${counts[t]})</button>`).join("");
+}
+function renderFilters() {
+  const el = $("#filters");
+  const st = cur();
+  if (st.type !== "extract" || !st.notes.length) { el.hidden = true; return; }
+  el.hidden = false;
+  const has = new Set(); st.notes.forEach((n) => n.tags.forEach((t) => has.add(t)));
+  if (S.tag !== "all" && !has.has(S.tag)) S.tag = "all";
+  el.innerHTML = chipRow(st.notes, S.tag);
+}
+
+/* ---------- shared pieces ---------- */
+function qaCards(qa) {
+  return qa.map((q) => `<div class="qa ${q.lvl || ""}" role="button" tabindex="0" data-qa>${q.lvl ? `<span class="lv">${q.lvl === "core" ? "Core" : "Stretch"}</span>` : ""}<div class="qq">${esc(q.q)}</div><div class="aa">${esc(q.a)}</div></div>`).join("");
+}
+function ratingHTML(h) {
+  const A = DATA.hours[h].aims;
+  const items = A.stretch ? [...A.sc, A.stretch] : [...A.sc];
+  return items.map((t, i) => {
+    const v = S.rate[h + ":" + i];
+    return `<div class="rate"><p>${A.stretch && i === A.sc.length ? "<b>Stretch:</b> " : ""}${esc(t)}</p><div class="rbtns">` +
+      ["Not yet", "Nearly", "Got it"].map((l, k) => `<button class="rb${v === k ? " on" : ""}" data-rate="${h}:${i}:${k}">${l}</button>`).join("") + `</div></div>`;
+  }).join("");
+}
+function clozeParts(text) {
+  let i = 0;
+  const html = esc(text).replace(/\{\{(.+?)\}\}/g, (m, a) => { i++; return `<span class="gap" data-gap role="button" tabindex="0"><sup>${i}</sup><span class="ans">${esc(a)}</span></span>`; });
+  const bank = [...text.matchAll(/\{\{(.+?)\}\}/g)].map((m) => m[1]).sort((a, b) => a.localeCompare(b));
+  return { html, bank };
+}
+function hingeHTML(hg) {
+  return `<div class="hinge"><div class="lab">Quick check: vote, then reveal</div><p class="hq">${esc(hg.q)}</p>` +
+    hg.opts.map((o, i) => `<button class="opt" data-hinge="${i}">${"ABCD"[i]}&nbsp; ${esc(o)}</button>`).join("") +
+    `<div class="row"><button class="ghost small" data-act="hingeshow">Show answer</button></div><div class="hres" hidden></div></div>`;
+}
+const ideas = (items) => items.map((i) => `<div class="idea"><b>${esc(i.h)}</b><p>${esc(i.t)}</p></div>`).join("");
+
+/* ---------- the extract ---------- */
+function annSpans(text, notes) {
+  const marks = [];
+  notes.forEach((n) => { const i = text.indexOf(n.phrase); if (i >= 0) marks.push({ s: i, e: i + n.phrase.length, n }); });
+  marks.sort((a, b) => a.s - b.s);
+  let out = "", p = 0;
+  marks.forEach((m) => {
+    out += fmt(text.slice(p, m.s));
+    out += `<span class="ann${match(m.n) ? "" : " dim"}" data-note="${m.n.id}" role="button" tabindex="0">${fmt(text.slice(m.s, m.e))}</span>`;
+    p = m.e;
+  });
+  return out + fmt(text.slice(p));
+}
+function quoteOf(st, n) {
+  if (n.phrase) return n.phrase;
+  const ls = st.lines.filter((l) => l.k === "ln" && l.n >= n.from && l.n <= n.to).map((l) => l.t);
+  return ls.length > 2 ? ls[0] + " … " + ls[ls.length - 1] : ls.join(" / ");
+}
+function notePanel(st, n) {
+  const vis = visible(st), idx = vis.findIndex((x) => x.id === n.id);
+  const tiers = (n.support || n.stretch)
+    ? `<div class="tierbtns">${n.support ? `<button class="ghost small" data-act="tog" data-t="sup">Need a starter?</button>` : ""}${n.stretch ? `<button class="ghost small" data-act="tog" data-t="str">Push further</button>` : ""}</div>` +
+      (n.support ? `<div class="tier sup" hidden><b>Sentence starter</b>${esc(n.support)}</div>` : "") +
+      (n.stretch ? `<div class="tier str" hidden><b>Stretch question</b>${esc(n.stretch)}</div>` : "")
+    : "";
+  return `<div class="ptop"><span>Note ${idx + 1} of ${vis.length}</span></div>` +
+    `<p class="q">${fmt(quoteOf(st, n))}</p><h3>${esc(n.title)}</h3>` +
+    `<div class="lab">In plain English</div><p>${esc(n.meaning)}</p>` +
+    `<div class="lab">Why it matters</div><p>${esc(n.effect)}</p>` +
+    (n.ask ? `<div class="ask"><b>Ask the class</b><p>${esc(n.ask)}</p></div>` : "") + tiers +
+    `<div class="tagrow">${n.tags.map((t) => `<span class="chip tg-${t}"><i class="dot"></i>${esc(DATA.TAGS[t])}</span>`).join("")}</div>` +
+    `<div class="notenav"><button data-act="pn">◀ Previous note</button><button data-act="nn">Next note ▶</button></div>`;
+}
+function scenePanel(st) {
+  return `<p class="lead">${esc(st.setup)}</p>` +
+    (st.think ? `<div class="think"><b>Think first</b><p>${esc(st.think)}</p><button class="ghost small" data-act="timer" data-sec="${st.thinkSecs || 30}">Start timer</button></div>` : "") +
+    (st.task ? `<div class="think"><b>Your task</b><p>${esc(st.task)}</p></div>` : "") +
+    (st.read ? "" : `<button class="ghost" data-act="firstnote">Open the first note</button>`);
+}
+function glossPanel(st) {
+  return `<p class="hint">Words you may not know.</p>` + st.gloss.map((g) => `<div class="idea"><b>${esc(g[0])}</b><p>${esc(g[1])}</p></div>`).join("");
+}
+
+/* ---------- what each step shows: one main focus, the rest in drawers ---------- */
+const VIEW = {
+  aims(st) {
+    const A = DATA.hours[S.h].aims;
+    return {
+      kick: `About ${st.mins} min`, title: st.title, sub: A.bridge || "", rail: "Aims",
+      body: `<div class="inner aimsbody"><div class="li"><div class="lab">Learning intention</div><p>${esc(A.li)}</p></div>` +
+        `<div class="sc"><div class="lab">Success criteria: by the end of the lesson I can…</div><ul>${A.sc.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>${A.stretch ? `<p class="stretchsc"><b>Stretch:</b> ${esc(A.stretch)}</p>` : ""}</div></div>`,
+      drawers: [
+        { id: "donow", label: "Do now", cta: true, title: st.doNow.title, html: () => `<p class="hint">Talk in pairs first. Tap a question to check.</p>${qaCards(st.doNow.qa)}<div class="row"><button class="ghost" data-act="timer" data-sec="60">Start a 1-minute timer</button></div>` },
+        { id: "word", label: "Word of the lesson", title: "Word of the lesson", html: () => `<div class="word"><b>${esc(A.word.w)}</b> means ${esc(A.word.m)} ${esc(A.word.eg)}</div>` },
+      ],
+    };
+  },
+  extract(st) {
+    const phr = {}, rng = {}, stg = {};
+    st.notes.forEach((n) => {
+      if (n.phrase) { if (n.stage) (stg[n.stage] = stg[n.stage] || []).push(n); else (phr[n.at] = phr[n.at] || []).push(n); }
+      else for (let i = n.from; i <= n.to; i++) rng[i] = n;
+    });
+    const body = st.lines.map((l) => {
+      if (l.k === "sp") return `<div class="sp">${esc(l.t)}</div>`;
+      if (l.k === "gap") return `<div class="gapline">${fmt(l.t)}</div>`;
+      if (l.k === "st") return `<div class="stg">${l.key && stg[l.key] ? annSpans(l.t, stg[l.key]) : fmt(l.t)}</div>`;
+      const r = rng[l.n];
+      const num = l.n % 5 === 0 ? l.n : "";
+      if (r) return `<div class="ln rng${match(r) ? "" : " dim"}" data-note="${r.id}" role="button" tabindex="0"><span class="num">${num}</span><span class="tx">${fmt(l.t)}</span></div>`;
+      return `<div class="ln"><span class="num">${num}</span><span class="tx">${annSpans(l.t, phr[l.n] || [])}</span></div>`;
+    }).join("");
+    const drawers = [{ id: "scene", label: "Before you read", title: "Before you read", cta: !!st.think, html: () => scenePanel(st) }];
+    if (st.gloss && st.gloss.length) drawers.push({ id: "gloss", label: "Hard words", title: "Hard words", html: () => glossPanel(st) });
+    if (!st.read) drawers.push({ id: "note", label: () => `Notes (${visible(st).length})` });
+    const foot = st.read
+      ? `Reading extract: read it aloud and complete the task. It is not one of the two annotated extracts. Text: Folger Shakespeare Library edition (folger.edu). Line numbers as printed there.`
+      : `Tap an underlined phrase or highlighted line to open its note. Text: Folger Shakespeare Library edition (folger.edu). Line numbers as printed there.`;
+    return {
+      kick: `${st.label} · ${st.read ? "read" : "annotate"} · about ${st.mins} min`, title: st.title, sub: st.sub, rail: "Extract", focus: true,
+      body: `<div class="lines">${body}</div><div class="foot">${foot}</div>`,
+      drawers,
+    };
+  },
+  link(st) {
+    const { html, bank } = clozeParts(st.text);
+    const drawers = [];
+    if (st.hinge) drawers.push({ id: "hinge", label: "Quick check", cta: true, title: "Quick check", html: () => hingeHTML(st.hinge) });
+    if (st.ext) drawers.push({ id: "ext", label: "Stretch", title: "Stretch", html: () => `<p class="stretchsc"><b>Stretch:</b> ${esc(st.ext)}</p>` });
+    return {
+      kick: `About ${st.mins} min`, title: st.title, sub: "Read aloud and tap each gap to reveal the word.", rail: "Gap-fill",
+      actions: `<button class="tb" data-act="reveal">Reveal all</button>`,
+      body: `<div class="inner"><div class="lab">Word bank</div><div class="bank">${bank.map((a) => `<span>${esc(a)}</span>`).join("")}</div><p class="cloze">${html}</p></div>`,
+      drawers,
+    };
+  },
+  plenary(st) {
+    return {
+      kick: `About ${st.mins} min`, title: st.title, sub: "Answer on your handout first. Then tap a question to check.", rail: "Exit ticket",
+      body: `<div class="inner">${qaCards(st.ticket)}</div>`,
+      drawers: [
+        { id: "rate", label: "Rate yourself", cta: true, title: "Rate yourself", html: () => `<p class="hint">How well can you do each of today’s success criteria?</p><div id="ratings">${ratingHTML(S.h)}</div>` },
+        { id: "next", label: "What’s next", title: "What’s next", html: () => `<div class="track"><p>${esc(st.next)}</p></div>` },
+      ],
+    };
+  },
+};
+
+/* ---------- putting a step on screen ---------- */
+function mainMarkup(v) {
+  const btns = v.drawers.map((d) => `<button class="tb${d.cta ? " cta" : ""}" data-drawer="${d.id}" aria-pressed="false">${esc(typeof d.label === "function" ? d.label() : d.label)}</button>`).join("");
+  const focus = v.focus ? `<button class="tb" data-act="focus" title="Show only the extract (F)"><i class="ic ic-focus"></i>Focus</button>` : "";
+  return `<section class="pane main" id="mainpane"><div class="phead"><div class="pt"><span class="kick">${esc(v.kick)}</span><h2>${esc(v.title)}</h2>${v.sub ? `<p class="sub">${esc(v.sub)}</p>` : ""}</div>` +
+    `<div class="ptools">${btns}${v.actions || ""}${focus}</div></div><div class="pbody" id="script">${v.body}</div></section>`;
+}
+const drawerMarkup = () =>
+  `<aside class="pane drawer" id="drawer" hidden aria-label="Side panel"><div class="dhead"><h3 id="dtitle"></h3><div class="dtools">` +
+  `<button class="tb" data-act="dwide" title="Make this panel wider or narrower"><i class="ic ic-wide"></i><span id="lw">Wider</span></button>` +
+  `<button class="tb" data-act="dfull" title="Hide the main pane to use the full width"><i class="ic ic-full"></i><span id="lf">Hide</span></button>` +
+  `<button class="ib" data-act="dclose" aria-label="Close" title="Close (Esc)"><i class="ic ic-close"></i></button></div></div><div class="dbody" id="panel" aria-live="polite"></div></aside>` +
+  `<button class="railtab" id="mainrail" data-act="showmain" hidden></button>`;
+
+function mount(keep) {
+  const el = $("#stage");
+  const st = cur();
+  const v = VIEW[st.type](st);
+  DR = {}; v.drawers.forEach((d) => (DR[d.id] = d));
+  const keepTop = keep && $("#script") ? $("#script").scrollTop : 0;
+  if (!keep) { S.drawer = null; S.wide = false; S.mainHidden = false; S.sel = null; }
+  el.innerHTML = mainMarkup(v) + drawerMarkup();
+  S.rail = (v.rail || "main pane").toLowerCase();
+  const rail = $("#mainrail"); if (rail) rail.textContent = "Show " + S.rail;
+  if (S.drawer && S.drawer !== "note" && !DR[S.drawer]) S.drawer = null;
+  if (S.drawer === "note" && !S.sel) S.drawer = null;
+  layout();
+  if (S.sel) markSel();
+  const sc = $("#script"); if (sc) sc.scrollTop = keepTop;
+}
+function markSel() { document.querySelectorAll("[data-note]").forEach((el) => el.classList.toggle("on", el.dataset.note === S.sel)); }
+function layout() {
+  const c = $("#stage"), d = $("#drawer");
+  const has = !!S.drawer && !!d;
+  c.classList.toggle("has-drawer", has);
+  c.classList.toggle("wide", has && S.wide);
+  c.classList.toggle("mainhidden", has && S.mainHidden);
+  if (d) d.hidden = !has;
+  const rail = $("#mainrail"); if (rail) rail.hidden = !(has && S.mainHidden);
+  document.querySelectorAll(".tb[data-drawer]").forEach((b) => { const on = b.dataset.drawer === S.drawer; b.classList.toggle("on", on); b.setAttribute("aria-pressed", String(on)); });
+  if (has) { fillDrawer(); $("#lw").textContent = S.wide ? "Narrower" : "Wider"; $("#lf").textContent = (S.mainHidden ? "Show " : "Hide ") + S.rail; }
+}
+function fillDrawer() {
+  const st = cur();
+  let title, html;
+  if (S.drawer === "note") {
+    const n = S.sel && byId(st, S.sel);
+    if (!n) { closeDrawer(); return; }
+    title = "Notes"; html = notePanel(st, n);
+  } else { const dd = DR[S.drawer]; title = dd.title || (typeof dd.label === "string" ? dd.label : ""); html = dd.html(); }
+  $("#dtitle").textContent = title;
+  $("#panel").innerHTML = html;
+  $("#panel").scrollTop = 0;
+}
+function openDrawer(id) { S.drawer = id; layout(); }
+function closeDrawer() {
+  if (S.drawer === "note") S.sel = null;
+  S.drawer = null; S.wide = false; S.mainHidden = false; markSel(); layout();
+}
+function select(id) {
+  S.sel = id; S.drawer = "note"; markSel(); layout();
+  const first = document.querySelector(`[data-note="${id}"]`);
+  if (first) setTimeout(() => first.scrollIntoView({ block: "center", behavior: reduced() ? "auto" : "smooth" }), 40);
+}
+function stepNote(d) {
+  const st = cur(), vis = visible(st);
+  if (!vis.length) return;
+  let i = vis.findIndex((n) => n.id === S.sel);
+  i = i < 0 ? (d > 0 ? 0 : vis.length - 1) : (i + d + vis.length) % vis.length;
+  select(vis[i].id);
+}
+function setFocus(on) {
+  if (on && cur().type !== "extract") return;
+  S.focus = on;
+  document.body.classList.toggle("focus", on);
+  $("#fctl").setAttribute("aria-hidden", String(!on));
+  if (on) setTimeout(() => $("#unfocus").focus({ preventScroll: true }), 400);
+  const sc = $("#script"); if (sc && on) sc.scrollTop = sc.scrollTop;
+}
+
+/* ---------- navigation ---------- */
+function renderAll() { renderTop(); renderNav(); renderFilters(); mount(false); }
+function go(h, s) {
+  if (S.focus) setFocus(false);
+  S.h = h; S.s = s; S.sel = null;
+  renderAll();
+}
+function move(d) {
+  let h = S.h, s = S.s + d;
+  if (s < 0) { if (h === 0) return; h--; s = DATA.hours[h].steps.length - 1; }
+  else if (s >= DATA.hours[h].steps.length) { if (h === DATA.hours.length - 1) return; h++; s = 0; }
+  go(h, s);
+}
+
+/* ---------- timer ---------- */
+const T = { id: null, end: 0 };
+const mmss = (s) => Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0");
+function timerStart(sec) {
+  clearInterval(T.id);
+  const el = $("#timer"); el.hidden = false; el.classList.remove("done");
+  T.end = Date.now() + sec * 1000;
+  const tick = () => {
+    const left = Math.max(0, Math.ceil((T.end - Date.now()) / 1000));
+    $("#tt").textContent = left > 0 ? mmss(left) : "Time!";
+    if (left <= 0) { clearInterval(T.id); el.classList.add("done"); }
+  };
+  tick(); T.id = setInterval(tick, 250);
+}
+function timerStop() { clearInterval(T.id); $("#timer").hidden = true; }
+
+/* ---------- events ---------- */
+function syncReveal(scope) {
+  const btn = (scope || document).querySelector('[data-act="reveal"]');
+  if (!btn) return;
+  const gaps = [...(scope || document).querySelectorAll(".gap")];
+  btn.textContent = gaps.length && gaps.every((g) => g.classList.contains("open")) ? "Hide all" : "Reveal all";
+}
+function hingeMark(box, hg, picked) {
+  box.querySelectorAll(".opt").forEach((o, j) => { o.classList.toggle("right", j === hg.correct); o.classList.toggle("wrong", picked !== null && j === picked && j !== hg.correct); });
+  const res = box.querySelector(".hres"); res.hidden = false;
+  res.innerHTML = `<b>${picked === null ? "Answer:" : picked === hg.correct ? "Correct." : "Not quite."}</b> ${esc(hg.why)}`;
+}
+function hidePops() {
+  document.querySelectorAll(".pop").forEach((p) => { p.hidden = true; const b = p.parentElement.querySelector("button[aria-haspopup]"); if (b) b.setAttribute("aria-expanded", "false"); });
+}
+document.addEventListener("click", (e) => {
+  const t = e.target;
+  const pb = t.closest("button[aria-haspopup]");
+  if (pb) {
+    const p = pb.parentElement.querySelector(".pop"), wasHidden = p.hidden;
+    hidePops(); p.hidden = !wasHidden; pb.setAttribute("aria-expanded", String(wasHidden));
+    return;
+  }
+  if (!t.closest(".pop")) hidePops();
+  const dr = t.closest("[data-drawer]");
+  if (dr) {
+    const id = dr.dataset.drawer;
+    if (S.drawer === id) closeDrawer();
+    else if (id === "note") { if (S.sel && visible(cur()).some((n) => n.id === S.sel)) select(S.sel); else stepNote(1); }
+    else { if (S.drawer === "note") S.sel = null; markSel(); openDrawer(id); }
+    return;
+  }
+  const note = t.closest("[data-note]");
+  if (note) { select(note.dataset.note); return; }
+  const gap = t.closest("[data-gap]");
+  if (gap) { gap.classList.toggle("open"); syncReveal(document); return; }
+  const qa = t.closest("[data-qa]");
+  if (qa) { qa.classList.toggle("open"); return; }
+  const hb = t.closest("[data-hinge]");
+  if (hb) { hingeMark(hb.closest(".hinge"), cur().hinge, +hb.dataset.hinge); return; }
+  const rate = t.closest("[data-rate]");
+  if (rate) {
+    const [h, i, v] = rate.dataset.rate.split(":");
+    S.rate[h + ":" + i] = +v; saveRate();
+    const box = rate.closest("#ratings");
+    if (box) box.innerHTML = ratingHTML(+h);
+    return;
+  }
+  const b = t.closest("button");
+  if (!b) return;
+  if (b.closest("#tmenu")) { timerStart(+b.dataset.sec); hidePops(); return; }
+  if (b.dataset.h !== undefined) { hidePops(); return go(+b.dataset.h, 0); }
+  if (b.dataset.s !== undefined) return go(S.h, +b.dataset.s);
+  if (b.dataset.tag !== undefined) {
+    S.tag = b.dataset.tag;
+    const st = cur();
+    if (S.sel && !match(byId(st, S.sel))) { S.sel = null; if (S.drawer === "note") S.drawer = null; }
+    renderFilters(); mount(true);
+    return;
+  }
+  switch (b.dataset.act) {
+    case "next": move(1); break;
+    case "prev": move(-1); break;
+    case "nn": stepNote(1); break;
+    case "pn": stepNote(-1); break;
+    case "firstnote": stepNote(1); break;
+    case "dclose": closeDrawer(); break;
+    case "dwide": S.wide = !S.wide; S.mainHidden = false; layout(); break;
+    case "dfull": S.mainHidden = !S.mainHidden; layout(); break;
+    case "showmain": S.mainHidden = false; layout(); break;
+    case "focus": setFocus(true); break;
+    case "unfocus": setFocus(false); break;
+    case "tog": { const el = $("#panel ." + b.dataset.t); if (el) { el.hidden = !el.hidden; if (!el.hidden) el.scrollIntoView({ block: "nearest" }); } break; }
+    case "timer": timerStart(+b.dataset.sec); break;
+    case "tstop": timerStop(); break;
+    case "hingeshow": hingeMark(b.closest(".hinge"), cur().hinge, null); break;
+    case "reveal": {
+      const gaps = document.querySelectorAll(".gap");
+      const allOpen = [...gaps].every((g) => g.classList.contains("open"));
+      gaps.forEach((g) => g.classList.toggle("open", !allOpen));
+      syncReveal(document);
+      break;
+    }
+  }
+});
+document.addEventListener("keydown", (e) => {
+  const tg = e.target instanceof Element ? e.target : document.body;
+  if ((e.key === "Enter" || e.key === " ") && tg.matches("[role=button]")) { e.preventDefault(); tg.click(); return; }
+  if (tg.matches("input,textarea") || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (e.key === "Escape") {
+    if ([...document.querySelectorAll(".pop")].some((p) => !p.hidden)) hidePops();
+    else if (S.focus) setFocus(false);
+    else if (S.drawer) closeDrawer();
+    return;
+  }
+  if (e.key === "f" || e.key === "F") { setFocus(!S.focus); return; }
+  if (S.focus) return;
+  if (e.key === "ArrowRight") move(1);
+  else if (e.key === "ArrowLeft") move(-1);
+  else if (e.key === "]") stepNote(1);
+  else if (e.key === "[") stepNote(-1);
+});
+
+/* tools */
+function setScale(d) {
+  S.scale = Math.min(1.6, Math.max(0.75, +(S.scale + d).toFixed(2)));
+  document.documentElement.style.setProperty("--scale", S.scale);
+}
+["#fsm", "#ffm"].forEach((id) => $(id).addEventListener("click", () => setScale(-0.1)));
+["#fsp", "#ffp"].forEach((id) => $(id).addEventListener("click", () => setScale(0.1)));
+function effectiveTheme() { return document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"); }
+function syncTheme() { $("#theme").textContent = effectiveTheme() === "dark" ? "Day mode" : "Night mode"; }
+$("#theme").addEventListener("click", () => { document.documentElement.dataset.theme = effectiveTheme() === "dark" ? "light" : "dark"; syncTheme(); });
+$("#full").addEventListener("click", () => {
+  try { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen(); } catch (err) { /* not available */ }
+});
+syncTheme();
+renderAll();
+</script>
+</body>
+</html>
